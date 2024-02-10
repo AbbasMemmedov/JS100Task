@@ -309,52 +309,52 @@
 // name();
 
 // 30. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən funksiya yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1).
-// function name() {
-//   let promptValue = +prompt("Reqem daxil edin.");
-//   let arr = [200, 100, 50, 20, 10, 5, 1];
-//   let twoHundred = 0;
-//   let Hundred = 0;
-//   let fifty = 0;
-//   let twenty = 0;
-//   let ten = 0;
-//   let five = 0;
-//   let one = 0;
+/* function name() {
+  let promptValue = +prompt("Reqem daxil edin.");
+  let arr = [200, 100, 50, 20, 10, 5, 1];
+  let twoHundred = 0;
+  let Hundred = 0;
+  let fifty = 0;
+  let twenty = 0;
+  let ten = 0;
+  let five = 0;
+  let one = 0;
 
-//   for (let index = 0; index < arr.length; index++) {
-//     while (promptValue >= arr[index]) {
-//       promptValue -= arr[index];
-//       switch (arr[index]) {
-//         case 200:
-//           twoHundred++;
-//           break;
-//         case 100:
-//           Hundred++;
-//           break;
-//         case 50:
-//           fifty++;
-//           break;
-//         case 20:
-//           twenty++;
-//           break;
-//         case 10:
-//           ten++;
-//           break;
-//         case 5:
-//           five++;
-//           break;
-//         case 1:
-//           one++;
-//           break;
-//         default:
-//           break;
-//       }
-//     }
-//   }
-//   console.log(
-//     `${twoHundred}-200, ${Hundred}-100, ${fifty}-50, ${twenty}-20, ${ten}-10, ${five}-5, ${one}-1.`
-//   );
-// }
-// name();
+  for (let index = 0; index < arr.length; index++) {
+    while (promptValue >= arr[index]) {
+      promptValue -= arr[index];
+      switch (arr[index]) {
+        case 200:
+          twoHundred++;
+          break;
+        case 100:
+          Hundred++;
+          break;
+        case 50:
+          fifty++;
+          break;
+        case 20:
+          twenty++;
+          break;
+        case 10:
+          ten++;
+          break;
+        case 5:
+          five++;
+          break;
+        case 1:
+          one++;
+          break;
+        default:
+          break;
+      }
+    }
+  }
+  console.log(
+    `${twoHundred}-200, ${Hundred}-100, ${fifty}-50, ${twenty}-20, ${ten}-10, ${five}-5, ${one}-1.`
+  );
+}
+name(); */
 
 // 31. Massivin ilk elementini qaytaran funksiya yazın.
 // let promptValue = prompt("eded daxil edin");
