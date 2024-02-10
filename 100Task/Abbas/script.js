@@ -374,3 +374,25 @@ console.log(promptValue[promptValue.length-1]);
 
 console.log(Object.keys(obj));
  */
+
+// 34. Verilən obyekin yalnız value-larını ekrana verən funksiya yazınб
+/* function name() {
+  let obj = {
+    name: "abbas",
+    surname: "mammadov",
+    age: 21,
+  };
+  console.log(Object.values(obj));
+}
+name(); */
+
+// 35. Obyektin proprty-lərinin sayını qaytaran funksiya yazın.
+/* let obj = {
+  name: "abbas",
+  surname: "mammadov",
+  age: 21,
+};
+let a = Object.keys(obj);
+console.log(a.length);
+ */
+
