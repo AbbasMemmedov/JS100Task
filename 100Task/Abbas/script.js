@@ -360,12 +360,12 @@ name(); */
 // let promptValue = prompt("eded daxil edin");
 // console.log(promptValue[0]);
 
-// 32. Massivin son elementini qaytaran funksiya yazın.
+// todo 32. Massivin son elementini qaytaran funksiya yazın.
 /* let promptValue = prompt("eded daxil edin.");
 console.log(promptValue[promptValue.length-1]);
  */
 
-// 33. Verilən obyekin yalnız key-lərini ekrana verən funksiya yazın.
+// todo 33. Verilən obyekin yalnız key-lərini ekrana verən funksiya yazın.
 /* let obj = {
   name: "abbas",
   surname: "mammadov",
@@ -375,7 +375,7 @@ console.log(promptValue[promptValue.length-1]);
 console.log(Object.keys(obj));
  */
 
-// 34. Verilən obyekin yalnız value-larını ekrana verən funksiya yazınб
+// todo 34. Verilən obyekin yalnız value-larını ekrana verən funksiya yazınб
 /* function name() {
   let obj = {
     name: "abbas",
@@ -386,7 +386,7 @@ console.log(Object.keys(obj));
 }
 name(); */
 
-// 35. Obyektin proprty-lərinin sayını qaytaran funksiya yazın.
+// todo 35. Obyektin proprty-lərinin sayını qaytaran funksiya yazın.
 /* let obj = {
   name: "abbas",
   surname: "mammadov",
@@ -396,7 +396,7 @@ let a = Object.keys(obj);
 console.log(a.length);
  */
 
-// 36. Massivin ilk n elementini ekrana verən funksiya yazın.
+// todo 36. Massivin ilk n elementini ekrana verən funksiya yazın.
 /* let promptValue = +prompt("eded daxil edin.");
 let word = "abcdef";
 let c = "";
@@ -405,3 +405,5 @@ for (let index = 0; index < promptValue; index++) {
 }
 console.log(c);
  */
+
+
