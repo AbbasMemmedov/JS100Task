@@ -375,7 +375,7 @@ addNumber(); */
 
 function addNumber (a){
   l
-  return a[0];
+  console.log(a[0])
   
 }
 let promptValue = prompt("Eded daxil edin");
