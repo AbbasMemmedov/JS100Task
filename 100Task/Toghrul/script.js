@@ -373,14 +373,70 @@ addNumber(); */
 
 //31. Massivin ilk elementini qaytaran funksiya yazın
 
-function addNumber (a){
-  l
+/* function addNumber(a){
   console.log(a[0])
-  
 }
 let promptValue = prompt("Eded daxil edin");
-addNumber(promptValue);
- 
- /* onsole.log(promptValue[0]); */
+addNumber(promptValue); */
 
 
+ //32. Massivin son elementini qaytaran funksiya yazın
+/* function addNumb(a) {
+  let lastNumb = promptValue[promptValue.length-1];
+  console.log(lastNumb);
+}
+ let promptValue = prompt("Eded daxil edin");
+
+ addNumb(promptValue); */
+
+ //33. Verilən obyekin yalnız key-lərini ekrana verən funksiya yazın
+
+/* function addProp(){
+  let obj = {
+    name: "Thomas",
+    surname: "Anderson",
+    age: 23,
+    height: 1.80,
+    weight: 70
+   }
+   console.log(Object.keys(obj));
+}
+
+addProp(); */
+
+//34. Verilən obyekin yalnız value-larını ekrana verən funksiya yazın
+
+/* function addProp(){
+  let obj = {
+    name: "Thomas",
+    surname: "Anderson",
+    age: 23,
+    height: 1.80,
+    weight: 70
+   }
+   console.log(Object.values(obj));
+}
+
+addProp(); */
+
+
+//35. Obyektin proprty-lərinin sayını qaytaran funksiya yazın
+
+/* function addProp(){
+  let obj = {
+    name: "Thomas",
+    surname: "Anderson",
+    age: 23,
+    height: 1.80,
+    weight: 70
+   }
+   console.log(Object.keys(obj).length);
+}
+
+addProp(); */
+/* console.log(word[i]);
+let promptValue = 3;
+let word = "thomas";
+for(let i = 0; i<promptValue; i++){
+  
+} */
