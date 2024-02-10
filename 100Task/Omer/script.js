@@ -446,26 +446,155 @@ function sadeci(eded) {
 } */
 
 // TODO Task 29. Daxil edilmiş ədəddən kiçik tək ədədlərin sayını hesablayan funksiya yazın. Verilən ədəd mənfi olarsa böyük olan tək ədədlərin sayını tapın.
-// Task 29 => Result:
-// reqem = prompt("Ədədin sondan n-inci rəqəmini tapaq");
-// let cem = 0;
-// hesablayan(reqem);
-// function hesablayan(eded) {
-//   if (eded >= 0) {
-//     eded -= 2
-//     for (; eded >= 0; eded - 2) {
-//       if (eded % 2 == 1) {
-//         cem += 1
-//       }
-//     }
-//     console.log(`Tam olaraq ${eded} dən kiçik tək ədədlərin sayı: ${cem}`);
-//   } else {
-//     eded += 2
-//     for (; eded <= 0; eded + 2) {
-//       if (eded % 2 == 1) {
-//         cem += 1
-//       }
-//     }
-//     console.log(`Tam olaraq ${eded} dən kiçik tək ədədlərin sayı: ${cem}`);
-//   }
-// }
+/* Task 29 => Result:
+reqem = prompt("Ədədin sondan n-inci rəqəmini tapaq");
+let cem = 0;
+hesablayan(reqem);
+function hesablayan(eded) {
+  if (eded >= 0) {
+    eded -= 2
+    for (; eded >= 0; eded - 2) {
+      if (eded % 2 == 1) {
+        cem += 1
+      }
+    }
+    console.log(`Tam olaraq ${eded} dən kiçik tək ədədlərin sayı: ${cem}`);
+  } else {
+    eded += 2
+    for (; eded <= 0; eded + 2) {
+      if (eded % 2 == 1) {
+        cem += 1
+      }
+    }
+    console.log(`Tam olaraq ${eded} dən kiçik tək ədədlərin sayı: ${cem}`);
+  }
+ */
+
+// TODO Task 30. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən funksiya yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1).
+/* Task 30 => Result:
+let Pul = prompt("Pul məbləği daxil edin");
+let oldMoney = Pul;
+let M200 = 0;
+let M100 = 0;
+let M50 = 0;
+let M20 = 0;
+let M10 = 0;
+let M5 = 0;
+let M1 = 0;
+bankamat(Pul);
+function bankamat(girilenPul) {
+  while (girilenPul >= 0) {
+    if (girilenPul > 0 && girilenPul < 1) {
+      console.log("Qəpik qəbul etmirik, Yanlız Manatlıqlar daxildir!");
+      break;
+    } 
+    if (girilenPul >= 200) {
+      girilenPul -= 200;
+      M200 += 1;
+    } else if (girilenPul >= 100) {
+      girilenPul -= 100;
+      M100 += 1;
+    } else if (girilenPul >= 50) {
+      girilenPul -= 50;
+      M50 += 1;
+    } else if (girilenPul >= 20) {
+      girilenPul -= 20;
+      M20 += 1;
+    } else if (girilenPul >= 10) {
+      girilenPul -= 10;
+      M10 += 1;
+    } else if (girilenPul >= 5) {
+      girilenPul -= 5;
+      M5 += 1;
+    } else if (girilenPul >= 1) {
+      girilenPul -= 1;
+      M1 += 1;
+    } else {
+      if (girilenPul >= 0) {
+        console.log(
+          `Ümumi pul məbləği: ${oldMoney}\nQaytarıldı: (${M200}) - 200 Manat, (${M100}) - 100 Manat, (${M50}) - 50 Manat, (${M20}) - 20 Manat, (${M10}) - 10 Manat, (${M5}) - 5 Manat, (${M1}) - 1 Manat`
+        );
+        break;
+      }
+    }
+  }
+} */
+
+// TODO Task 31. Massivin ilk elementini qaytaran funksiya yazın.
+/* Task 31 => Result:
+let promptValue = prompt("Eded daxil edin");
+
+addNumber(promptValue);
+
+function addNumber (deyer){
+  console.log(deyer[0])
+} */
+
+// TODO Task 32. Massivin son elementini qaytaran funksiya yazın.
+/* Task 32 => Result:
+let promptValue = prompt("Eded daxil edin");
+
+addNumber(promptValue);
+
+function addNumber(deyer) {
+  console.log(deyer[deyer.length - 1]);
+}
+ */
+
+// TODO Task 33. Verilən obyekin yalnız key-lərini ekrana verən funksiya yazın.
+/* Task 33 => Result:
+
+let obj = {
+  ad: "Omer",
+  soyad: "Tapdiqov",
+  yas: 18,
+}
+
+addNumber(obj);
+
+function addNumber(object) {
+  console.log(Object.keys(object));
+}
+ */
+
+// TODO Task 34. Verilən obyekin yalnız Value-lərini ekrana verən funksiya yazın.
+/*Task 34 => Result:
+
+let obj = {
+  ad: "Omer",
+  soyad: "Tapdiqov",
+  yas: 18,
+}
+
+addNumber(obj);
+
+function addNumber(object) {
+  console.log(Object.values(object));
+}
+*/
+
+// TODO Task 35. Obyektin proprty-lərinin sayını qaytaran funksiya yazın.
+/* //Task 35 => Result:
+
+let obj = {
+  ad: "Omer",
+  soyad: "Tapdiqov",
+  yas: 18,
+}
+
+addNumber(obj);
+
+function addNumber(object) {
+  console.log(Object.keys(object).length);
+} */
+
+// TODO Task 36. Massivin ilk n elementini ekrana verən funksiya yazın.
+/* //Task 36 => Result:
+let promptvalue = prompt("uzunluq deyerinin daxil edin")
+let word = "Salam Dunya"
+let cem = ""
+for (let i = 0; i < promptvalue; i++) {
+  cem += word[i]
+}
+console.log(cem);
+ */
