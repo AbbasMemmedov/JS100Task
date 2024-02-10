@@ -397,10 +397,11 @@ console.log(a.length);
  */
 
 // 36. Massivin ilk n elementini ekrana verən funksiya yazın.
-let promptValue = +prompt("eded daxil edin.");
+/* let promptValue = +prompt("eded daxil edin.");
 let word = "abcdef";
 let c = "";
 for (let index = 0; index < promptValue; index++) {
   c += word[index];
 }
 console.log(c);
+ */
