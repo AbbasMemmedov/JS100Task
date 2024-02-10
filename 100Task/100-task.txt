@@ -1,0 +1,53 @@
+1. İstifadəçidən ən az 2 rəqəmli ədəd daxil etməsini istəyin və onun sondan 2-ci rəqəmini ekrana verin
+2. İstifadəçidən tək sayda rəqəmlərdən ibarət olan ədəd daxil etməsini istəyin. Onun ortada duran rəqəmini ekrana verin
+3. İstifadəçidən ədəd daxil etməsini istəyin. O ədədin son rəqəmini silib ekrana verin
+4. İstifadəçidən ədəd daxil etməsini istəyin. O ədədin ilk rəqəmini silib ekrana verin
+5. Daxil edilmiş ədədin 3 və 5-ə eyni anda bölünüb bölünmədiyini yoxlayan proqram yazın
+6. Daxil edilmiş ədədin içində 6 rəqəminin ölub olmadığını yoxlayan proqram yazın
+7. Daxil edilmiş ədəddən böyük (növbəti) 11-ə bölünən ədədi ekrana verin
+8. İstifadəçidən hər hansı bir ədəd və hesablamaq istədiyi qüvvəti daxil etməsini istəyin. Bu ədədlərə görə nəticəni hesablayıb ekrana verin
+9. İstifadəçidən 5 rəqəmli ədəd daxil etməsini istəyin. O ədədin rəqəmlərinin cəmini ekrana verin
+10. İstifadəçidən istənilən rəqəmli ədəd daxil etməsini istəyin. O ədədin rəqəmlərinin cəmini ekrana verin
+11. İstifadəçidən 5 rəqəmli ədəd daxil etməsini istəyin. Ədədin tərsini ekrana verin (12345 > 54321)
+12. İstifadəçidən istənilən rəqəmli ədəd daxil etməsini istəyin. Ədədin tərsini ekrana verin (12345 > 54321)
+13. İstifadəçinən düzbucaqlı paralelepipedin tərəflərini daxil etməsini istəyin. Bu tərəflərə görə paralelepipedin həcmini hesablayıb ekrana verin
+14. Daxil edilmiş ədədin tək yerdə duran rəqəmlərini silib ekrana verən proqram yazın
+15. Daxil edilmiş ədədin mənfi, sıfır və ya müsbət olmağından asılı olaraq çıxışa uyğun olaraq -1, 0 və ya 1 verin.
+16. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən proqram yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1)
+17. Daxil edilmiş 3 rəqəmli ədədin rəqəmlərini artan sırayla sıralayıb ekrana verin
+18. Daxil edilmiş ədədin sadə olub olmamasını yoxlayan və çıxışa uyğun olaraq true və ya false verən proqram yazın
+19. Daxil edilmiş ədəddən kiçik ədədlər arasından tam kub olan ən böyük ədədi ekrana verin
+20. İstifadəçidən ayın rəqəmini (1-12) daxil etməsini istəyin. Bu rəqəmlərə görə ekrana həmin ayın adını çıxarın
+
+
+
+21. Verilmiş ədədin uzunluğunu geri qaytaran funksiya yazın.
+22. Daxil edilən name parametrinə uyğun olaraq Salam <name>! mesajını ekrana verin. name təqdim olunmazsa Salam qonaq! mesajını ekrana verin
+23. Verilmiş ədədin palindrom olub olmadığını yoxlayan funksiya yazın
+24. Daxil edilmiş 3 rəqəmli ədədin rəqəmlərinin fərqli olub olmadığını yoxlayan funksiya yazın
+25. Daxil edilmiş rəqəmdən kiçik 10-a bölünən ədədi qaytaran funksiya yazın
+26. Verilmiş n və m ədədlərinə uyğun olaraq n^m-i hesablayın. m təqdim edilməzsə dəyəri 2 olaraq qəbul edin
+27. Ədədin sondan n-inci rəqəmini tapan funksiya yazın
+28. Daxil edilmiş ədədin sadə olub olmamasını yoxlayan və çıxışa uyğun olaraq true və ya false verən funksiya yazın
+29. Daxil edilmiş ədəddən kiçik tək ədədlərin sayını hesablayan funksiya yazın. Verilən ədəd mənfi olarsa böyük olan tək ədədlərin sayını tapın
+30. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən funksiya yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1)
+
+31. Massivin ilk elementini qaytaran funksiya yazın
+32. Massivin son elementini qaytaran funksiya yazın
+33. Verilən obyekin yalnız key-lərini ekrana verən funksiya yazın
+34. Verilən obyekin yalnız value-larını ekrana verən funksiya yazın
+35. Obyektin proprty-lərinin sayını qaytaran funksiya yazın
+36. Massivin ilk n elementini ekrana verən funksiya yazın
+37. Massivin son n elementini ekrana verən funksiya yazın
+38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean)
+39. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın
+40. Massivin tək yerdə duran elementlərini null-a çevirən funksiya yazın
+41. Massivin verilən indeksdən sonrakı elementlərini silən funksiya yazın
+42. Aldığı parametrlərə görə yeni obyekt yaradan funksiya yazın (məs.: createObj('Elchin', 'Zadeh') => {name: 'Elchin', surname: 'Zadeh'})
+43. Aldığı parametrlərə görə obyektə yeni property əlavə edən funksiya yazın (məs.: updateObj({}, 'name', 'Elchin') => {name: 'Elchin'})
+44. Verilən 2 massivi birləşdirib tək bir massiv qaytaran funksiya yazın
+45. Obyektin seçilən property-sini silən funksiya yazın (məs.: deleteKey(obj, key))
+46. Massivin klonunu yaradan funksiya yazın
+47. Obyektin klonunu yaradan funksiya yazın
+48. Verilən obyektdə dəyəri string olan elementlərin key-lərini ekrana verən funksiya yazın
+49. Massivdə ən çox işlənən elementi qaytaran funksiya yazın

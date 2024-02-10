@@ -443,8 +443,7 @@ function sadeci(eded) {
   } else {
     console.log("Sadə deyildir. ❌");
   }
-}
-*/
+} */
 
 // TODO Task 29. Daxil edilmiş ədəddən kiçik tək ədədlərin sayını hesablayan funksiya yazın. Verilən ədəd mənfi olarsa böyük olan tək ədədlərin sayını tapın.
 // Task 29 => Result:
