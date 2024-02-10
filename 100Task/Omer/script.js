@@ -598,3 +598,14 @@ for (let i = 0; i < promptvalue; i++) {
 }
 console.log(cem);
  */
+
+// TODO Task 37. Massivin son n elementini ekrana verən funksiya yazın.
+/* //Task 37 => Result:
+let promptvalue = prompt("uzunluq deyerinin daxil edin")
+let word = "Salam Dunya"
+let cem = ""
+for (let i = word.length - 1; i > promptvalue; i--) {
+  cem += word[i]
+}
+console.log(cem);
+ */
