@@ -360,4 +360,6 @@ name(); */
 // let promptValue = prompt("eded daxil edin");
 // console.log(promptValue[0]);
 
-
+// 32. Massivin son elementini qaytaran funksiya yazın.
+let promptValue = prompt("eded daxil edin.");
+console.log(promptValue[promptValue.length-1]);
