@@ -364,3 +364,13 @@ name(); */
 /* let promptValue = prompt("eded daxil edin.");
 console.log(promptValue[promptValue.length-1]);
  */
+
+// 33. Verilən obyekin yalnız key-lərini ekrana verən funksiya yazın.
+/* let obj = {
+  name: "abbas",
+  surname: "mammadov",
+  age: 21,
+};
+
+console.log(Object.keys(obj));
+ */
