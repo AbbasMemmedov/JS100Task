@@ -1,5 +1,5 @@
-let reqem = 0;
-let result = 0;
+var reqem = 0;
+var result = 0;
 // ! Tasklar:
 // TODO Task 1. İstifadəçidən ən az 2 rəqəmli ədəd daxil etməsini istəyin və onun sondan 2-ci rəqəmini ekrana verin.
 /* Task 1 => Result: 
@@ -608,4 +608,26 @@ for (let i = word.length - 1; i > promptvalue; i--) {
   cem += word[i]
 }
 console.log(cem);
+ */
+
+// TODO Task 38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean).
+/* //Task 38 => Result:
+let obj = {
+  A: "Alma",
+  B: "Banan",
+  C: 4,
+};
+let finder = false;
+let objKeys = Object.keys(obj);
+let promptValue = prompt("hansı object key olup-olmadığını axtarış edirsiniz?");
+objectKeyFinder(objKeys, promptValue);
+
+function objectKeyFinder(object, which) {
+  object.forEach((element) => {
+    if (element == which) {
+      finder = true;
+    }
+  });
+}
+console.log(finder);
  */
