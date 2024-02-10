@@ -520,5 +520,81 @@ function bankamat(girilenPul) {
   }
 } */
 
-// TODO Task 31. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən funksiya yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1).
-// Task 31 => Result:
+// TODO Task 31. Massivin ilk elementini qaytaran funksiya yazın.
+/* Task 31 => Result:
+let promptValue = prompt("Eded daxil edin");
+
+addNumber(promptValue);
+
+function addNumber (deyer){
+  console.log(deyer[0])
+} */
+
+// TODO Task 32. Massivin son elementini qaytaran funksiya yazın.
+/* Task 32 => Result:
+let promptValue = prompt("Eded daxil edin");
+
+addNumber(promptValue);
+
+function addNumber(deyer) {
+  console.log(deyer[deyer.length - 1]);
+}
+ */
+
+// TODO Task 33. Verilən obyekin yalnız key-lərini ekrana verən funksiya yazın.
+/* Task 33 => Result:
+
+let obj = {
+  ad: "Omer",
+  soyad: "Tapdiqov",
+  yas: 18,
+}
+
+addNumber(obj);
+
+function addNumber(object) {
+  console.log(Object.keys(object));
+}
+ */
+
+// TODO Task 34. Verilən obyekin yalnız Value-lərini ekrana verən funksiya yazın.
+/*Task 34 => Result:
+
+let obj = {
+  ad: "Omer",
+  soyad: "Tapdiqov",
+  yas: 18,
+}
+
+addNumber(obj);
+
+function addNumber(object) {
+  console.log(Object.values(object));
+}
+*/
+
+// TODO Task 35. Obyektin proprty-lərinin sayını qaytaran funksiya yazın.
+/* //Task 35 => Result:
+
+let obj = {
+  ad: "Omer",
+  soyad: "Tapdiqov",
+  yas: 18,
+}
+
+addNumber(obj);
+
+function addNumber(object) {
+  console.log(Object.keys(object).length);
+} */
+
+// TODO Task 36. Massivin ilk n elementini ekrana verən funksiya yazın.
+/* //Task 36 => Result:
+let promptvalue = prompt("uzunluq deyerinin daxil edin")
+let word = "Salam Dunya"
+let cem = ""
+for (let i = 0; i < promptvalue; i++) {
+  cem += word[i]
+}
+console.log(cem);
+ */
