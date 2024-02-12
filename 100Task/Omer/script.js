@@ -694,6 +694,17 @@ let obj = createObj(
 );
 console.log(obj); */
 
+// TODO 43. Aldığı parametrlərə görə obyektə yeni property əlavə edən funksiya yazın (məs.: updateObj({}, 'name', 'Elchin') => {name: 'Elchin'}).
+/* //Task 43 => Result:
+function updateObj(obj, key, value) {
+  obj[key] = value;
+  return obj;
+}
+let myObj = {};
+
+updateObj(myObj, prompt("Obyektin Key adını qeyd edin"), prompt("Obyektin Keyinin VALUE -sunu qeyd edin")); // myObj: { name: 'Elchin' }
+console.log(myObj); */
+
 // ! Task 48. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean).
 //Task 38 => Result:
 /* //Task 48 => Result:
