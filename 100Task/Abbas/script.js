@@ -531,4 +531,32 @@ let arr = promptValue;
 console.log(arr);
  */
 
-//  todo 47. Obyektin klonunu yaradan funksiya yazın.
+// todo 47. Obyektin klonunu yaradan funksiya yazın.
+/*let promptValue = {
+  name: prompt("Name deyeri daxil edin"),
+  surname: prompt("Name deyeri daxil edin"),
+  age: prompt("Name deyeri daxil edin")
+}
+let cloneObject2 = promptValue;
+*/
+
+// todo 48. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean).
+/*let obj = {
+  name: "Omer",
+  surname: "Tapdiqov",
+  age: 18,
+};
+
+newProp(obj)
+
+function newProp(obj) {
+    for (const key in obj) {
+        if (typeof obj [key] === "String") {
+            console.log(key);
+        }
+    }
+}
+*/
+
+// todo 49. Massivdə ən çox işlənən elementi qaytaran funksiya yazın.
+
