@@ -677,6 +677,22 @@ function tekMassiv(array) {
   console.log(array);
 } */
 
+// TODO 42. Aldığı parametrlərə görə yeni obyekt yaradan funksiya yazın (məs.: createObj('Elchin', 'Zadeh') => {name: 'Elchin', surname: 'Zadeh'}).
+/* //Task 42 => Result:
+function createObj(name, surname, age) {
+  return {
+    name: name,
+    surname: surname,
+    age: age,
+  };
+}
+
+let obj = createObj(
+  prompt("Adınızı qeyd edin"),
+  prompt("Soyad adınızı qeyd edin"),
+  prompt("Yaşınızı qeyd edin")
+);
+console.log(obj); */
 
 // ! Task 48. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean).
 //Task 38 => Result:
