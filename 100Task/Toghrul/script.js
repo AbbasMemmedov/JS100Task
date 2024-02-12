@@ -495,14 +495,3 @@ function tekMassiv(array) {
 //48. Verilən obyektdə dəyəri string olan elementlərin key-lərini ekrana verən funksiya yazın
 
 //49. Massivdə ən çox işlənən elementi qaytaran funksiya yazın
-let arr = [1, 3, 5, 6, 2, 1, 1, 1, 3, 9, 10];
-let score = 0;
-let maxScore = 0;
-for(let i = 0; i<arr.length; i++){
-  if(arr[i] == arr[++i]){
-    score+=1;
-  }
-  if (maxScore <= score) {
-    maxScore = score
-  }
-}
