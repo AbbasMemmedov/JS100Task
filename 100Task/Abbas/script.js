@@ -295,19 +295,19 @@
 // }
 // name();
 
-// 29. Daxil edilmiş ədəddən kiçik tək ədədlərin sayını hesablayan funksiya yazın. Verilən ədəd mənfi olarsa böyük olan tək ədədlərin sayını tapın.
-// function name() {
-//   let promptValue = prompt("eded daxil edin.");
-//   if (promptValue > 0) {
-//     let result = Math.floor(promptValue / 2);
-//     console.log(result);
-//   } else if (promptValue < 0) {
-//     let result = Math.ceil(promptValue / 2);
-//     console.log(result);
-//   }
-// }
-// name();
-
+// todo 29. Daxil edilmiş ədəddən kiçik tək ədədlərin sayını hesablayan funksiya yazın. Verilən ədəd mənfi olarsa böyük olan tək ədədlərin sayını tapın.
+/* function name() {
+  let promptValue = prompt("eded daxil edin.");
+  if (promptValue > 0) {
+    let result = Math.floor(promptValue / 2);
+    console.log(result);
+  } else if (promptValue < 0) {
+    let result = Math.ceil(promptValue / 2);
+    console.log(result);
+  }
+}
+name();
+ */
 // todo 30. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən funksiya yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1).
 /* function name() {
   let promptValue = +prompt("Reqem daxil edin.");
@@ -405,4 +405,22 @@ for (let index = 0; index < promptValue; index++) {
   c += word[index];
 }
 console.log(c);
+ */
+
+// todo 40. Massivin tək yerdə duran elementlərini null-a çevirən funksiya yazın.
+/* let arr = [];
+let promptValue = prompt("deyer daxil edin");
+for (let j = 0; j < promptValue.length; j++) {
+  arr.push(promptValue[j]);
+}
+console.log(arr);
+
+tekMassiv(arr);
+
+function tekMassiv(array) {
+  for (let i = 1; i < array.length; i += 2) {
+    array[i] = null;
+  }
+  console.log(array);
+}
  */
