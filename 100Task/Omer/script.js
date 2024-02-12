@@ -643,8 +643,8 @@ addStar(arr);
  */
 
 // TODO 40. Massivin tək yerdə duran elementlərini null-a çevirən funksiya yazın
-//Task 39 => Result:
-/* let arr = [];
+/* //Task 40 => Result:
+let arr = [];
 let promptValue = prompt("deyer daxil edin")
 for (let j = 0; j < promptValue.length; j++) {
   arr.push(promptValue[j])
@@ -660,7 +660,26 @@ function tekMassiv(array) {
   console.log(array);
 } */
 
-// TODO Task 48. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean).//Task 38 => Result:
+// TODO 41. Massivin verilən indeksdən sonrakı elementlərini silən funksiya yazın
+/* //Task 41 => Result:
+let arr = [];
+let promptValue = prompt("deyer daxil edin") //12345
+for (let j = 0; j < promptValue.length; j++) {
+  arr.push(promptValue[j])
+}
+console.log(arr);
+
+tekMassiv(arr)
+
+function tekMassiv(array) {
+  let secim = prompt("indeksi seçin")
+  array.splice(secim, array.length)
+  console.log(array);
+} */
+
+
+// ! Task 48. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean).
+//Task 38 => Result:
 /* //Task 48 => Result:
 let obj = {
   name: "Omer",
