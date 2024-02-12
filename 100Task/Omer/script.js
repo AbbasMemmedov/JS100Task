@@ -771,5 +771,33 @@ function mostFrequent(arr) {
   console.log(result);
 } */
 
-// TODO 50. Elave Tasklar
+// TODO 50. Massivin elementlərini ayrı ayrı console-a verən funksiya yazın.
+/* //Task 50 => Result:
+let arr = [1,2,3,4,5,6,7,8,9] 
+arr.forEach(element => {
+  console.log(element);
+});
+ */
 
+// TODO 51. Massivin içindəki bütün string-ləri birləşdirən funksiya yazın.
+/* //Task 51 => Result:
+let arr = ["salam","dunya","necesen"] 
+let cem = ""
+arr.forEach(element => {
+  if (typeof element === "string") {
+    cem += element
+  }
+});
+console.log(cem); */
+
+// TODO 52. Massivin içindəki 0 dan fərqli olan ədədləri bir-birinə vuran funksiya yazın.
+/*//Task 52 => Result:
+ let arrayValue = [5, 5, 5, 0, 2];
+let hasil = 1;
+for (let index = 0; index < arrayValue.length; index++) {
+  if (arrayValue[index] != 0) {
+    hasil *= arrayValue[index];
+  }
+}
+console.log(hasil);
+ */
