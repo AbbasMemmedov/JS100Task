@@ -447,3 +447,6 @@ for(let i = 0; i<promptValue; i++){
 //39. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın
 
 //40. Massivin tək yerdə duran elementlərini null-a çevirən funksiya yazın
+
+//42. Aldığı parametrlərə görə yeni obyekt yaradan funksiya yazın (məs.: createObj('Elchin', 'Zadeh') => {name: 'Elchin', surname: 'Zadeh'})
+
