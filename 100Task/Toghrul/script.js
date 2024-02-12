@@ -448,5 +448,61 @@ for(let i = 0; i<promptValue; i++){
 
 //40. Massivin tək yerdə duran elementlərini null-a çevirən funksiya yazın
 
+/* let arr = [];
+let promptValue = prompt("deyer daxil edin")
+for (let j = 0; j < promptValue.length; j++) {
+  arr.push(promptValue[j])
+}
+console.log(arr);
+
+tekMassiv(arr)
+
+function tekMassiv(array) {
+  for (let i = 1; i < array.length; i+=2) {
+    array[i] = null
+  }
+  console.log(array);
+} */
+
+//41. Massivin verilən indeksdən sonrakı elementlərini silən funksiya yazın
+/*let arr = [];
+let promptValue = prompt("deyer daxil edin") //12345
+for (let j = 0; j < promptValue.length; j++) {
+  arr.push(promptValue[j])
+}
+console.log(arr);
+
+tekMassiv(arr)
+
+function tekMassiv(array) {
+  let secim = prompt("indeksi seçin")
+  array.splice(secim, array.length)
+  console.log(array);
+} */
+
 //42. Aldığı parametrlərə görə yeni obyekt yaradan funksiya yazın (məs.: createObj('Elchin', 'Zadeh') => {name: 'Elchin', surname: 'Zadeh'})
 
+//43. Aldığı parametrlərə görə obyektə yeni property əlavə edən funksiya yazın (məs.: updateObj({}, 'name', 'Elchin') => {name: 'Elchin'})
+
+
+//44. Verilən 2 massivi birləşdirib tək bir massiv qaytaran funksiya yazın
+
+//45. Obyektin seçilən property-sini silən funksiya yazın (məs.: deleteKey(obj, key))
+//46. Massivin klonunu yaradan funksiya yazın
+
+//47. Obyektin klonunu yaradan funksiya yazın
+
+//48. Verilən obyektdə dəyəri string olan elementlərin key-lərini ekrana verən funksiya yazın
+
+//49. Massivdə ən çox işlənən elementi qaytaran funksiya yazın
+let arr = [1, 3, 5, 6, 2, 1, 1, 1, 3, 9, 10];
+let score = 0;
+let maxScore = 0;
+for(let i = 0; i<arr.length; i++){
+  if(arr[i] == arr[++i]){
+    score+=1;
+  }
+  if (maxScore <= score) {
+    maxScore = score
+  }
+}
