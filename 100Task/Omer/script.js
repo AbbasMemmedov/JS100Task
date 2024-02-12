@@ -759,7 +759,7 @@ function newProp(obj) {
 } */
 
 // TODO 49. Massivdə ən çox işlənən elementi qaytaran funksiya yazın.
-//Task 49 => Result:
+/* //Task 49 => Result:
 let arr = [1,5,2,3,3,3,3,3,3,6,8,1,4,2,1,1,9,7] 
 mostFrequent(arr)
 
@@ -769,4 +769,4 @@ function mostFrequent(arr) {
         - arr.filter(element => element===b).length //2
   ).pop();
   console.log(result);
-}
+} */
