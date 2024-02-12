@@ -610,9 +610,41 @@ for (let i = word.length - 1; i > promptvalue; i--) {
 console.log(cem);
  */
 
-// TODO Task 38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean).
-/* //Task 38 => Result:
-/* let obj = {
+// TODO 38. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın.
+/* //Task 39 => Result:
+let obj = {
+  A: "Alma",
+  B: "Banan",
+  C: 4,
+};
+let finder = false;
+let objKeys = Object.keys(obj);
+let promptValue = prompt("hansı object key olup-olmadığını axtarış edirsiniz?");
+objectKeyFinder(objKeys, promptValue);
+
+function objectKeyFinder(object, which) {
+  object.forEach((element) => {
+    if (element == which) {
+      finder = true;
+    }
+  });
+}
+console.log(finder);
+*/
+
+// TODO 39. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın.
+/* //Task 39 => Result:
+/* let arr = [11,22,33,44,55,66,77,88,99];
+
+function addStar(array) {
+    console.log(array.join(" * "));
+}
+addStar(arr);
+ */
+
+// TODO Task 48. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean).//Task 38 => Result:
+/* //Task 48 => Result:
+let obj = {
   name: "Omer",
   surname: "Tapdiqov",
   age: 18,
@@ -627,18 +659,3 @@ function newProp(obj) {
         }
     }
 } */
-
-
-
-// TODO 39. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın.
-/* //Task 39 => Result:
-/* let arr = [11,22,33,44,55,66,77,88,99];
-
-function addStar(array) {
-    console.log(array.join(" * "));
-}
-
-addStar(arr);
-
-
- */
