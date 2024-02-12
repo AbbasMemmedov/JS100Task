@@ -560,3 +560,33 @@ function newProp(obj) {
 */
 
 // ! 49. Massivdə ən çox işlənən elementi qaytaran funksiya yazın.
+
+// todo 50. Massivin elementlərini ayrı ayrı console-a verən funksiya yazın.
+/* let arrayValue = [1, "a", 2, "b", 3, "c", 4, "d", 5, "e", 6, 7, 8, 9];
+arrayValue.forEach((element) => {
+  console.log(element);
+});
+ */
+
+// todo 51. Massivin içindəki bütün string-ləri birləşdirən funksiya yazın.
+/* let arrayValue = [1, "a", 2, "b", 3, "c", 4, "d", 5, "e", 6, 7, 8, 9];
+let arr = "";
+arrayValue.forEach((element) => {
+  if (typeof element === "string") {
+    arr += element;
+  }
+});
+console.log(arr);
+ */
+
+// todo 52. Massivin içindəki 0dan fərqli olan ədədləri bir-birinə vuran funksiya yazın.
+/* let arrayValue = [5, 5, 5, 0, 2];
+let hasil = 1;
+for (let index = 0; index < arrayValue.length; index++) {
+  if (arrayValue[index] != 0) {
+    hasil *= arrayValue[index];
+  }
+}
+console.log(hasil);
+ */
+
