@@ -612,26 +612,30 @@ console.log(cem);
 
 // TODO Task 38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean).
 /* //Task 38 => Result:
-/* let obj = {
-  name: "Omer",
-  surname: "Tapdiqov",
-  age: 18,
+let obj = {
+  A: "Alma",
+  B: "Banan",
+  C: 4,
 };
+let finder = false;
+let objKeys = Object.keys(obj);
+let promptValue = prompt("hansı object key olup-olmadığını axtarış edirsiniz?");
+objectKeyFinder(objKeys, promptValue);
 
-newProp(obj)
-
-function newProp(obj) {
-    for (const key in obj) {
-        if (typeof obj [key] === "String") {
-            console.log(key);
-        }
+function objectKeyFinder(object, which) {
+  object.forEach((element) => {
+    if (element == which) {
+      finder = true;
     }
-} */
+  });
+}
+console.log(finder);
+ */
 
 
 
-// TODO 39. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın.
-/* //Task 39 => Result:
+// 39. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın.
+
 /* let arr = [11,22,33,44,55,66,77,88,99];
 
 function addStar(array) {
