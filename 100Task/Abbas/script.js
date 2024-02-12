@@ -503,8 +503,9 @@ console.log(obj);
 
 // ! todo 43. Aldığı parametrlərə görə obyektə yeni property əlavə edən funksiya yazın (məs.: updateObj({}, 'name', 'Elchin') => {name: 'Elchin'}).
 
-// 44. Verilən 2 massivi birləşdirib tək bir massiv qaytaran funksiya yazın.
+// todo 44. Verilən 2 massivi birləşdirib tək bir massiv qaytaran funksiya yazın.
 let promprArr1 = prompt("1 ci arrey daxil edin."); //12345
 let promprArr2 = prompt("2 ci arrey daxil edin."); //abcd
-let arr = [...promprArr1, ...promprArr2];
-console.log(arr);
+/* let arr = [...promprArr1, ...promprArr2];
+console.log(arr); */
+console.log(promprArr1.concat(promprArr2).split(""));
