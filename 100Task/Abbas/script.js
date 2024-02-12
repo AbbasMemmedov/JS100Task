@@ -35,7 +35,7 @@ if ((number4 % 3 == 0) & (number4 % 5 == 0)) {
  alert("Ədəd 3 və 5-ə bölünmür.");
 } */
 
-// todo  6. Daxil edilmiş ədədin içində 6 rəqəminin olub olmadığını yoxlayan proqram yazın.
+// todo 6. Daxil edilmiş ədədin içində 6 rəqəminin olub olmadığını yoxlayan proqram yazın.
 /* let number5 = prompt("Ədəd daxil edin.");
 let caseValue = false;
 for (let i = 0; i < number5.length; i++) {
@@ -95,18 +95,11 @@ let height = +prompt("Yüksekliği daxil edin");
 let volume = length * width * height;
 console.log(volume); */
 
-// todo 18. Daxil edilmiş ədədin sadə olub olmamasını yoxlayan və çıxışa uyğun olaraq true və ya false verən proqram yazın.
-/* let number18 = +prompt("ədəd daxil edin.");
-let number18End = number18;
-while (true) {
- number18End--;
- if ((number18 % number18End == 0) & (number18End > 1)) {
-   console.log("Ədəd sade deyil.");
-   break;
- } else if (number18End == 0) {
-   console.log("Ədəd sadedir.");
-   break;
- }
+// todo 14. Daxil edilmiş ədədin tək yerdə duran rəqəmlərini silib ekrana verən proqram yazın
+/* let promptValue = "123456789";
+for (let index = 0; index < promptValue.length; index++) {
+  let r = promptValue.slice(index, (index += 1));
+  console.log(r);
 } */
 
 // todo 16. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən proqram yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1)
@@ -155,11 +148,31 @@ console.log(
   `${twoHundred}-200, ${Hundred}-100, ${fifty}-50, ${twenty}-20, ${ten}-10, ${five}-5, ${one}-1.`
 ); */
 
-// todo 14. Daxil edilmiş ədədin tək yerdə duran rəqəmlərini silib ekrana verən proqram yazın
-/* let promptValue = "123456789";
-for (let index = 0; index < promptValue.length; index++) {
-  let r = promptValue.slice(index, (index += 1));
-  console.log(r);
+// todo 17. Daxil edilmiş 3 rəqəmli ədədin rəqəmlərini artan sırayla sıralayıb ekrana verin.
+/* let promptValue = "345621";
+let min;
+for (let i = 0; i < promptValue.length; i++) {
+  for (let j = 1; j < promptValue.length; j++) {
+    if (promptValue[i] > promptValue[j]) {
+      let min = promptValue[i];
+      promptValue[i] = promptValue[j];
+      promptValue[j] = min;
+    }
+  }
+} */
+
+// todo 18. Daxil edilmiş ədədin sadə olub olmamasını yoxlayan və çıxışa uyğun olaraq true və ya false verən proqram yazın.
+/* let number18 = +prompt("ədəd daxil edin.");
+let number18End = number18;
+while (true) {
+ number18End--;
+ if ((number18 % number18End == 0) & (number18End > 1)) {
+   console.log("Ədəd sade deyil.");
+   break;
+ } else if (number18End == 0) {
+   console.log("Ədəd sadedir.");
+   break;
+ }
 } */
 
 // todo 19. Daxil edilmiş ədəddən kiçik ədədlər arasından tam kub olan ən böyük ədədi ekrana verin.
@@ -174,19 +187,6 @@ while (loop) {
     loop = false;
   }
   number++;
-} */
-
-// todo 17. Daxil edilmiş 3 rəqəmli ədədin rəqəmlərini artan sırayla sıralayıb ekrana verin.
-/* let promptValue = "345621";
-let min;
-for (let i = 0; i < promptValue.length; i++) {
-  for (let j = 1; j < promptValue.length; j++) {
-    if (promptValue[i] > promptValue[j]) {
-      let min = promptValue[i];
-      promptValue[i] = promptValue[j];
-      promptValue[j] = min;
-    }
-  }
 } */
 
 // todo 21. Verilmiş ədədin uzunluğunu geri qaytaran funksiya yazın.
