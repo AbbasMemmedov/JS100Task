@@ -51,3 +51,19 @@
 47. Obyektin klonunu yaradan funksiya yazın
 48. Verilən obyektdə dəyəri string olan elementlərin key-lərini ekrana verən funksiya yazın
 49. Massivdə ən çox işlənən elementi qaytaran funksiya yazın
+
+50. Massivin elementlərini ayrı ayrı console-a verən funksiya yazın
+51. Massivin içindəki bütün string-ləri birləşdirən funksiya yazın
+52. Massivin içindəki 0dan fərqli olan ədədləri bir-birinə vuran funksiya yazın
+
+Massivdə -100 - 100 arası ədədlər verilib. Bu massivə görə:
+53. Mənfi ədədləri müsbətə çevirib yeni array yaradın
+54. Elementləri kiçikdən böyüyə sıralayın
+55. Elementləri aldığı parametr-ə görə (kiçikdən böyüyə və ya böyükdən kiçiyə) sıralayan funksiya yazın
+56. Mənfi ədədləri silib yeni array yaradın
+57. Hər elementdən sadəcə birinin olduğu yeni bir massiv yaradın
+
+Tək massiv içində istifadəçilərin məlumatlarını bildirən birdən çox obyekt verilib. Bu obyektlərin içində fullName, age və gender key-ləri təyin olunub. Bu massivə əsasən:
+58. İstifadəçilərin sadəcə adlarının olduğu massiv yaradın
+59. Kişiləri və qadınları ayrı array-lərə yığın
+60. Yaşı 60-dan az olanları çıxarıb qalanlarını bir massivə yığın

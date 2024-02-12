@@ -770,3 +770,6 @@ function mostFrequent(arr) {
   ).pop();
   console.log(result);
 } */
+
+// TODO 50. Elave Tasklar
+
