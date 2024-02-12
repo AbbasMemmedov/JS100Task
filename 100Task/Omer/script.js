@@ -610,7 +610,7 @@ for (let i = word.length - 1; i > promptvalue; i--) {
 console.log(cem);
  */
 
-// TODO 38. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın.
+// TODO 38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean)
 /* //Task 39 => Result:
 let obj = {
   A: "Alma",
@@ -641,6 +641,24 @@ function addStar(array) {
 }
 addStar(arr);
  */
+
+// TODO 40. Massivin tək yerdə duran elementlərini null-a çevirən funksiya yazın
+//Task 39 => Result:
+/* let arr = [];
+let promptValue = prompt("deyer daxil edin")
+for (let j = 0; j < promptValue.length; j++) {
+  arr.push(promptValue[j])
+}
+console.log(arr);
+
+tekMassiv(arr)
+
+function tekMassiv(array) {
+  for (let i = 1; i < array.length; i+=2) {
+    array[i] = null
+  }
+  console.log(array);
+} */
 
 // TODO Task 48. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean).//Task 38 => Result:
 /* //Task 48 => Result:

@@ -440,3 +440,10 @@ let word = "thomas";
 for(let i = 0; i<promptValue; i++){
   
 } */
+
+
+//38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean)
+
+//39. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın
+
+//40. Massivin tək yerdə duran elementlərini null-a çevirən funksiya yazın
