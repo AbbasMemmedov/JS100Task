@@ -501,7 +501,7 @@ let obj = createObj(
 console.log(obj);
  */
 
-// ! todo 43. Aldığı parametrlərə görə obyektə yeni property əlavə edən funksiya yazın (məs.: updateObj({}, 'name', 'Elchin') => {name: 'Elchin'}).
+// ! 43. Aldığı parametrlərə görə obyektə yeni property əlavə edən funksiya yazın (məs.: updateObj({}, 'name', 'Elchin') => {name: 'Elchin'}).
 
 // todo 44. Verilən 2 massivi birləşdirib tək bir massiv qaytaran funksiya yazın.
 /* let promprArr1 = prompt("1 ci arrey daxil edin."); //12345
@@ -512,7 +512,7 @@ console.log(promprArr1.concat(promprArr2).split(""));
  */
 
 // todo 45. Obyektin seçilən property-sini silən funksiya yazın (məs.: deleteKey(obj, key)).
-let obj = {
+/* let obj = {
   name: "abbas",
   surname: "memmedov",
   age: 21,
@@ -523,3 +523,12 @@ function delet(obj, key) {
 }
 delet(obj, key);
 console.log(obj);
+ */
+
+// todo 46. Massivin klonunu yaradan funksiya yazın.
+/* let promptValue = [prompt("arrey daxil edin.")];
+let arr = promptValue;
+console.log(arr);
+ */
+
+//  todo 47. Obyektin klonunu yaradan funksiya yazın.
