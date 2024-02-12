@@ -278,37 +278,39 @@
 // }
 // num();
 
-// 28. Daxil edilmiş ədədin sadə olub olmamasını yoxlayan və çıxışa uyğun olaraq true və ya false verən funksiya yazın.
-// function name() {
-//   let number18 = +prompt("ədəd daxil edin.");
-//   let number18End = number18;
-//   while (true) {
-//     number18End--;
-//     if ((number18 % number18End == 0) & (number18End > 1)) {
-//       console.log("Ədəd sade deyil.");
-//       break;
-//     } else if (number18End == 0) {
-//       console.log("Ədəd sadedir.");
-//       break;
-//     }
-//   }
-// }
-// name();
+// todo 28. Daxil edilmiş ədədin sadə olub olmamasını yoxlayan və çıxışa uyğun olaraq true və ya false verən funksiya yazın.
+/* function name() {
+  let number18 = +prompt("ədəd daxil edin.");
+  let number18End = number18;
+  while (true) {
+    number18End--;
+    if ((number18 % number18End == 0) & (number18End > 1)) {
+      console.log("Ədəd sade deyil.");
+      break;
+    } else if (number18End == 0) {
+      console.log("Ədəd sadedir.");
+      break;
+    }
+  }
+}
+name();
+ */
 
-// 29. Daxil edilmiş ədəddən kiçik tək ədədlərin sayını hesablayan funksiya yazın. Verilən ədəd mənfi olarsa böyük olan tək ədədlərin sayını tapın.
-// function name() {
-//   let promptValue = prompt("eded daxil edin.");
-//   if (promptValue > 0) {
-//     let result = Math.floor(promptValue / 2);
-//     console.log(result);
-//   } else if (promptValue < 0) {
-//     let result = Math.ceil(promptValue / 2);
-//     console.log(result);
-//   }
-// }
-// name();
+// todo 29. Daxil edilmiş ədəddən kiçik tək ədədlərin sayını hesablayan funksiya yazın. Verilən ədəd mənfi olarsa böyük olan tək ədədlərin sayını tapın.
+/* function name() {
+  let promptValue = prompt("eded daxil edin.");
+  if (promptValue > 0) {
+    let result = Math.floor(promptValue / 2);
+    console.log(result);
+  } else if (promptValue < 0) {
+    let result = Math.ceil(promptValue / 2);
+    console.log(result);
+  }
+}
+name();
+ */
 
-// 30. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən funksiya yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1).
+// todo 30. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən funksiya yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1).
 /* function name() {
   let promptValue = +prompt("Reqem daxil edin.");
   let arr = [200, 100, 50, 20, 10, 5, 1];
@@ -356,9 +358,10 @@
 }
 name(); */
 
-// 31. Massivin ilk elementini qaytaran funksiya yazın.
-// let promptValue = prompt("eded daxil edin");
-// console.log(promptValue[0]);
+// todo 31. Massivin ilk elementini qaytaran funksiya yazın.
+/* let promptValue = prompt("eded daxil edin");
+console.log(promptValue[0]);
+ */
 
 // todo 32. Massivin son elementini qaytaran funksiya yazın.
 /* let promptValue = prompt("eded daxil edin.");
@@ -406,4 +409,117 @@ for (let index = 0; index < promptValue; index++) {
 console.log(c);
  */
 
+// TODO 37. Massivin son n elementini ekrana verən funksiya yazın.
+/*let promptvalue = prompt("uzunluq deyerinin daxil edin")
+let word = "Salam Dunya"
+let cem = ""
+for (let i = word.length - 1; i > promptvalue; i--) {
+  cem += word[i]
+}
+console.log(cem);
+ */
 
+// TODO 38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean)
+/*let obj = {
+  A: "Alma",
+  B: "Banan",
+  C: 4,
+};
+let finder = false;
+let objKeys = Object.keys(obj);
+let promptValue = prompt("hansı object key olup-olmadığını axtarış edirsiniz?");
+objectKeyFinder(objKeys, promptValue);
+
+function objectKeyFinder(object, which) {
+  object.forEach((element) => {
+    if (element == which) {
+      finder = true;
+    }
+  });
+}
+console.log(finder);
+*/
+
+// TODO 39. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın.
+/* let arr = [11,22,33,44,55,66,77,88,99];
+
+function addStar(array) {
+    console.log(array.join(" * "));
+}
+addStar(arr);
+ */
+
+// todo 40. Massivin tək yerdə duran elementlərini null-a çevirən funksiya yazın.
+/* let arr = [];
+let promptValue = prompt("deyer daxil edin");
+for (let j = 0; j < promptValue.length; j++) {
+  arr.push(promptValue[j]);
+}
+console.log(arr);
+
+tekMassiv(arr);
+
+function tekMassiv(array) {
+  for (let i = 1; i < array.length; i += 2) {
+    array[i] = null;
+  }
+  console.log(array);
+}
+ */
+
+// todo 41. Massivin verilən indeksdən sonrakı elementlərini silən funksiya yazın.
+/* let arr = [];
+let promptValue = prompt("deyer daxil edin") //12345
+for (let j = 0; j < promptValue.length; j++) {
+  arr.push(promptValue[j])
+}
+console.log(arr);
+
+tekMassiv(arr)
+
+function tekMassiv(array) {
+  let secim = prompt("indeksi seçin")
+  array.splice(secim, array.length)
+  console.log(array);
+}
+ */
+
+//  todo 42. Aldığı parametrlərə görə yeni obyekt yaradan funksiya yazın (məs.: createObj('Elchin', 'Zadeh') => {name: 'Elchin', surname: 'Zadeh'}).
+/* function createObj(name, surname, age) {
+  return {
+    name: name,
+    surname: surname,
+    age: age,
+  };
+}
+
+let obj = createObj(
+  prompt("Adınızı qeyd edin"),
+  prompt("Soyad adınızı qeyd edin"),
+  prompt("Yaşınızı qeyd edin")
+);
+console.log(obj);
+ */
+
+// ! todo 43. Aldığı parametrlərə görə obyektə yeni property əlavə edən funksiya yazın (məs.: updateObj({}, 'name', 'Elchin') => {name: 'Elchin'}).
+
+// todo 44. Verilən 2 massivi birləşdirib tək bir massiv qaytaran funksiya yazın.
+/* let promprArr1 = prompt("1 ci arrey daxil edin."); //12345
+let promprArr2 = prompt("2 ci arrey daxil edin."); //abcd
+let arr = [...promprArr1, ...promprArr2];
+console.log(arr);
+console.log(promprArr1.concat(promprArr2).split(""));
+ */
+
+// todo 45. Obyektin seçilən property-sini silən funksiya yazın (məs.: deleteKey(obj, key)).
+let obj = {
+  name: "abbas",
+  surname: "memmedov",
+  age: 21,
+};
+let key = prompt("key'i daxil edin.");
+function delet(obj, key) {
+  delete obj[key];
+}
+delet(obj, key);
+console.log(obj);
