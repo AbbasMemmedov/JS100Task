@@ -410,7 +410,7 @@ for (let index = 0; index < promptValue; index++) {
 console.log(c);
  */
 
-// TODO 37. Massivin son n elementini ekrana verən funksiya yazın.
+// todo 37. Massivin son n elementini ekrana verən funksiya yazın.
 /*let promptvalue = prompt("uzunluq deyerinin daxil edin")
 let word = "Salam Dunya"
 let cem = ""
@@ -420,7 +420,7 @@ for (let i = word.length - 1; i > promptvalue; i--) {
 console.log(cem);
  */
 
-// TODO 38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean)
+// todo 38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean)
 /*let obj = {
   A: "Alma",
   B: "Banan",
@@ -441,7 +441,7 @@ function objectKeyFinder(object, which) {
 console.log(finder);
 */
 
-// TODO 39. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın.
+// todo 39. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın.
 /* let arr = [11,22,33,44,55,66,77,88,99];
 
 function addStar(array) {
