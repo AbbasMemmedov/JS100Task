@@ -308,7 +308,7 @@
 // }
 // name();
 
-// 30. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən funksiya yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1).
+// todo 30. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən funksiya yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1).
 /* function name() {
   let promptValue = +prompt("Reqem daxil edin.");
   let arr = [200, 100, 50, 20, 10, 5, 1];
