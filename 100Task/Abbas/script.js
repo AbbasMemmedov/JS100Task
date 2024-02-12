@@ -512,3 +512,14 @@ console.log(promprArr1.concat(promprArr2).split(""));
  */
 
 // todo 45. Obyektin seçilən property-sini silən funksiya yazın (məs.: deleteKey(obj, key)).
+let obj = {
+  name: "abbas",
+  surname: "memmedov",
+  age: 21,
+};
+let key = prompt("key'i daxil edin.");
+function delet(obj, key) {
+  delete obj[key];
+}
+delet(obj, key);
+console.log(obj);
