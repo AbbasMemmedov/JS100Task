@@ -356,9 +356,10 @@
 }
 name(); */
 
-// 31. Massivin ilk elementini qaytaran funksiya yazın.
-// let promptValue = prompt("eded daxil edin");
-// console.log(promptValue[0]);
+// todo 31. Massivin ilk elementini qaytaran funksiya yazın.
+/* let promptValue = prompt("eded daxil edin");
+console.log(promptValue[0]);
+ */
 
 // todo 32. Massivin son elementini qaytaran funksiya yazın.
 /* let promptValue = prompt("eded daxil edin.");
@@ -405,5 +406,3 @@ for (let index = 0; index < promptValue; index++) {
 }
 console.log(c);
  */
-
-
