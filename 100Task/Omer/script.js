@@ -705,7 +705,41 @@ let myObj = {};
 updateObj(myObj, prompt("Obyektin Key adını qeyd edin"), prompt("Obyektin Keyinin VALUE -sunu qeyd edin")); // myObj: { name: 'Elchin' }
 console.log(myObj); */
 
-// ! Task 48. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean).
+// TODO 44. Verilən 2 massivi birləşdirib tək bir massiv qaytaran funksiya yazın.
+/* //Task 44 => Result:
+let promprArr1 = prompt("1 ci arrey daxil edin."); 
+let promprArr2 = prompt("2 ci arrey daxil edin."); 
+console.log(promprArr1.concat(promprArr2).split("")); */
+
+// TODO 45. Obyektin seçilən property-sini silən funksiya yazın (məs.: deleteKey(obj, key))
+/* //Task 45 => Result:
+let obj = {
+  name: "abbas",
+  surname: "memmedov",
+  age: 21,
+};
+let key = prompt("key'i daxil edin.");
+function delet(obj, key) {
+  delete obj[key];
+}
+delet(obj, key);
+console.log(obj); */
+
+// TODO 46. Massivin klonunu yaradan funksiya yazın
+/* //Task 46 => Result:
+let promptValue = [prompt("Array deyeri daxil edin")]
+let cloneArr = promptValue; */
+
+// TODO 47. Obyektin klonunu yaradan funksiya yazın
+/* //Task 47 => Result:
+let promptValue = {
+  name: prompt("Name deyeri daxil edin"),
+  surname: prompt("Name deyeri daxil edin"),
+  age: prompt("Name deyeri daxil edin")
+}
+let cloneObject2 = promptValue; */
+
+// TODO Task 48. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean).
 //Task 38 => Result:
 /* //Task 48 => Result:
 let obj = {
