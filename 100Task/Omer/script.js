@@ -845,3 +845,89 @@ function sorter(arr, secim) {
 }
 */
 
+// TODO 56. Mənfi ədədləri silib yeni array yaradın.
+/* //Task 56 => Result:
+let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
+let addArr = [];
+
+arr.forEach(element =>{
+  if(element >= 0){
+    addArr.push(element)
+  }
+})
+
+console.log(addArr) */
+
+// TODO 57. Hər elementdən sadəcə birinin olduğu yeni bir massiv yaradın.
+/* //Task 57 => Result:
+let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
+arr.forEach(element => {
+  console.log([element]);
+}); */
+
+//! Task 58,59,60
+let arr = [
+  {
+    name: "Omer",
+    age: 17,
+    gender: true,
+  },
+  {
+    name: "Togrul",
+    age: 30,
+    gender: true,
+  },
+  {
+    name: "Abbas",
+    age: 21,
+    gender: true,
+  },
+  {
+    name: "Qız",
+    age: 12,
+    gender: false,
+  },
+  {
+    name: "Xanım",
+    age: 63,
+    gender: false,
+  },
+  {
+    name: "Qadın",
+    age: 78,
+    gender: false,
+  },
+];
+
+// TODO 58. İstifadəçilərin sadəcə adlarının olduğu massiv yaradın
+/* //Task 58 => Result:
+let addArr = []
+for (let i = 0; i < arr.length; i++) {
+  addArr.push(arr[i].name)
+}
+console.log(addArr); */
+
+// TODO 59. Kişiləri və qadınları ayrı array-lərə yığın
+/* //Task 59 => Result:
+let men = []
+let women = []
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i].gender) {
+    men.push(arr[i].name) 
+  } else {
+    women.push(arr[i].name) 
+  }
+}
+console.log(men);
+console.log(women); */
+
+// TODO 60. Yaşı 60-dan az olanları çıxarıb qalanlarını bir massivə yığın
+/* //Task 60 => Result:
+let upperAges = [];
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i].age > 60) {
+    upperAges.push(arr[i].name)
+  }
+}
+console.log(upperAges);
+ */
