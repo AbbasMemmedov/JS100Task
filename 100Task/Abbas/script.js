@@ -590,3 +590,16 @@ for (let index = 0; index < arrayValue.length; index++) {
 console.log(hasil);
  */
 
+// ? Massivdə -100 - 100 arası ədədlər verilib. Bu massivə görə:
+// todo 53. Mənfi ədədləri müsbətə çevirib yeni array yaradın.
+/* let arr = [-12, 12, 4, -34, -3];
+let addArr = [];
+for (let index = 0; index < arr.length; index++) {
+  if (arr[index] < 0) {
+    addArr.push(arr[index] * -1);
+  } else {
+    addArr.push(arr[index]);
+  }
+}
+console.log(addArr);
+ */
