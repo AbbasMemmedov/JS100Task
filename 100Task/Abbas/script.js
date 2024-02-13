@@ -631,3 +631,58 @@ function sorter(arr, secim) {
  */
 
 // todo 56. Mənfi ədədləri silib yeni array yaradın.
+/* let arr = [-12, -20, -1, 0, 5, 1, 11, 35];
+let addArr = [];
+arr.forEach((element) => {
+  if (element >= 0) {
+    addArr.push(element);
+  }
+});
+console.log(addArr);
+ */
+
+//  todo 57. Hər elementdən sadəcə birinin olduğu yeni bir massiv yaradın.
+/* let arr = [-12, -20, -1, 0, 5, 1, 11, 35];
+arr.forEach((element) => {
+  console.log([element]);
+});
+ */
+
+// ? Tək massiv içində istifadəçilərin məlumatlarını bildirən birdən çox obyekt verilib. Bu obyektlərin içində fullName, age və gender key-ləri təyin olunub. Bu massivə əsasən:
+let arr = [
+  { name: "Abbas", age: 21, gender: "male" },
+  { name: "alia", age: 99, gender: "famale" },
+  { name: "Thogrul", age: 63, gender: "male" },
+  { name: "Omer", age: 17, gender: "male" },
+];
+
+// todo 58. İstifadəçilərin sadəcə adlarının olduğu massiv yaradın.
+/* let addArr = [];
+for (let i = 0; i < arr.length; i++) {
+  addArr.push(arr[i].name);
+}
+console.log(addArr);
+ */
+
+// todo 59. Kişiləri və qadınları ayrı array-lərə yığın.
+/* let menArr = [];
+let womenArr = [];
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i].gender === "male") {
+    menArr.push(arr[i].name);
+  } else {
+    womenArr.push(arr[i].name);
+  }
+}
+console.log(menArr, womenArr);
+ */
+
+// todo 60. Yaşı 60-dan az olanları çıxarıb qalanlarını bir massivə yığın.
+/* let addArr = [];
+for (let index = 0; index < arr.length; index++) {
+  if (arr[index].age > 60) {
+    addArr.push(arr[index].name);
+  }
+}
+console.log(addArr);
+ */
