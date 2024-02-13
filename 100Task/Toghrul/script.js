@@ -488,6 +488,7 @@ function tekMassiv(array) {
 //44. Verilən 2 massivi birləşdirib tək bir massiv qaytaran funksiya yazın
 
 //45. Obyektin seçilən property-sini silən funksiya yazın (məs.: deleteKey(obj, key))
+
 //46. Massivin klonunu yaradan funksiya yazın
 
 //47. Obyektin klonunu yaradan funksiya yazın
@@ -495,3 +496,22 @@ function tekMassiv(array) {
 //48. Verilən obyektdə dəyəri string olan elementlərin key-lərini ekrana verən funksiya yazın
 
 //49. Massivdə ən çox işlənən elementi qaytaran funksiya yazın
+
+//50. Massivin elementlərini ayrı ayrı console-a verən funksiya yazın
+
+//51. Massivin içindəki bütün string-ləri birləşdirən funksiya yazın
+
+//52. Massivin içindəki 0dan fərqli olan ədədləri bir-birinə vuran funksiya yazın
+
+//53. Mənfi ədədləri müsbətə çevirib yeni array yaradın
+
+let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
+let addArr = [];
+
+for(let i=0; i<arr.length; i++){
+   if(arr[i]< 0){
+     addArr.push(arr[i] * -1);
+    console.log(addArr);
+   }
+}
+
