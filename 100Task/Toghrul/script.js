@@ -524,4 +524,18 @@ arr.sort((a,b)=>{
 })
 console.log(arr) */
 
+//55. Elementləri aldığı parametr-ə görə (kiçikdən böyüyə və ya böyükdən kiçiyə) sıralayan funksiya yazın
+
+//56. Mənfi ədədləri silib yeni array yaradın
+
+let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
+let addArr = [];
+
+arr.forEach(element =>{
+  if(element >= 0){
+    addArr.push(element)
+  }
+})
+
+console.log(addArr)
 //TODO 55. Elementləri aldığı parametr-ə görə (kiçikdən böyüyə və ya böyükdən kiçiyə) sıralayan funksiya yazın
