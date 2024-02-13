@@ -202,7 +202,6 @@ console.log(largestCube); */
 
 //21. Verilmiş ədədin uzunluğunu geri qaytaran funksiya yazın.
 
-
 /* function callLength(){
   let promptValue = prompt("Eded daxil edin");
 let length = promptValue.length;
@@ -331,7 +330,6 @@ if (promptValue == 1) {
 }}
 
 addNumber(); */
-  
 
 //29. Daxil edilmiş ədəddən kiçik tək ədədlərin sayını hesablayan funksiya yazın. Verilən ədəd mənfi olarsa böyük olan tək ədədlərin sayını tapın
 
@@ -346,7 +344,6 @@ if(promptValue >0){
 }
 }
 addNumber(); */
-
 
 //30. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən funksiya yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1)
 
@@ -379,8 +376,7 @@ addNumber(); */
 let promptValue = prompt("Eded daxil edin");
 addNumber(promptValue); */
 
-
- //32. Massivin son elementini qaytaran funksiya yazın
+//32. Massivin son elementini qaytaran funksiya yazın
 /* function addNumb(a) {
   let lastNumb = promptValue[promptValue.length-1];
   console.log(lastNumb);
@@ -389,7 +385,7 @@ addNumber(promptValue); */
 
  addNumb(promptValue); */
 
- //33. Verilən obyekin yalnız key-lərini ekrana verən funksiya yazın
+//33. Verilən obyekin yalnız key-lərini ekrana verən funksiya yazın
 
 /* function addProp(){
   let obj = {
@@ -419,7 +415,6 @@ addProp(); */
 
 addProp(); */
 
-
 //35. Obyektin proprty-lərinin sayını qaytaran funksiya yazın
 
 /* function addProp(){
@@ -440,7 +435,6 @@ let word = "thomas";
 for(let i = 0; i<promptValue; i++){
   
 } */
-
 
 //38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean)
 
@@ -483,7 +477,6 @@ function tekMassiv(array) {
 //42. Aldığı parametrlərə görə yeni obyekt yaradan funksiya yazın (məs.: createObj('Elchin', 'Zadeh') => {name: 'Elchin', surname: 'Zadeh'})
 
 //43. Aldığı parametrlərə görə obyektə yeni property əlavə edən funksiya yazın (məs.: updateObj({}, 'name', 'Elchin') => {name: 'Elchin'})
-
 
 //44. Verilən 2 massivi birləşdirib tək bir massiv qaytaran funksiya yazın
 
@@ -528,7 +521,7 @@ console.log(arr) */
 
 //56. Mənfi ədədləri silib yeni array yaradın
 
-let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
+/* let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
 let addArr = [];
 
 arr.forEach(element =>{
@@ -537,5 +530,74 @@ arr.forEach(element =>{
   }
 })
 
-console.log(addArr)
+console.log(addArr) */
 //TODO 55. Elementləri aldığı parametr-ə görə (kiçikdən böyüyə və ya böyükdən kiçiyə) sıralayan funksiya yazın
+
+//TODO 57. Hər elementdən sadəcə birinin olduğu yeni bir massiv yaradın
+/* let arr = [-12, -20, -1, 0, 5, 1, 11, 35];
+arr.forEach((element) => {
+  console.log([element]);
+}); */
+
+// TODO. Tək massiv içində istifadəçilərin məlumatlarını bildirən birdən çox obyekt verilib. Bu obyektlərin içində fullName, age və gender key-ləri təyin olunub. Bu massivə əsasən:
+
+
+
+let arr = [
+  {
+    name: "Thom",
+    age: 25,
+    gender: "male"
+  },
+  {
+    name: "Elion",
+    age: 21,
+    gender: "male"
+  },
+  {
+    name: "Alexa",
+    age: 78,
+    gender: "famale"
+  },
+  {
+    name: "Alexandra",
+    age: 62,
+    gender: "famale"
+  },
+  {
+    name: "Alexi",
+    age: 64,
+    gender: "famale"
+  },
+]
+//TODO 58. İstifadəçilərin sadəcə adlarının olduğu massiv yaradın
+
+
+/* let addArr = []
+for (let index = 0; index < arr.length; index++) {
+  addArr.push(arr[index].name);  
+}
+console.log(addArr) */
+ 
+//TODO 59. Kişiləri və qadınları ayrı array-lərə yığın
+/* let men =[];
+let women = [];
+for (let index = 0; index < arr.length; index++) {
+  if(arr[index].gender === "male"){
+    men.push(arr[index].name)
+    
+  }else{
+    women.push(arr[index].name)
+  }
+}
+console.log(men, women); */
+
+// TODO 60. Yaşı 60-dan az olanları çıxarıb qalanlarını bir massivə yığın
+let newAge = []
+for (let index = 0; index < arr.length; index++) {
+  if(arr[index].age > 60){
+    newAge.push(arr[index].name)
+  }
+  
+}
+console.log(newAge)
