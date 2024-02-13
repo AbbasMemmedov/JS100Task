@@ -593,11 +593,11 @@ for (let index = 0; index < arr.length; index++) {
 console.log(men, women); */
 
 // TODO 60. Yaşı 60-dan az olanları çıxarıb qalanlarını bir massivə yığın
-let newAge = []
+/* let newAge = []
 for (let index = 0; index < arr.length; index++) {
   if(arr[index].age > 60){
     newAge.push(arr[index].name)
   }
   
 }
-console.log(newAge)
+console.log(newAge) */
