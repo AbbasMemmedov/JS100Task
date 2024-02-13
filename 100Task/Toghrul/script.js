@@ -503,7 +503,7 @@ function tekMassiv(array) {
 
 //52. Massivin içindəki 0dan fərqli olan ədədləri bir-birinə vuran funksiya yazın
 
-//53. Mənfi ədədləri müsbətə çevirib yeni array yaradın
+// TODO 53. Mənfi ədədləri müsbətə çevirib yeni array yaradın
 
 /* let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
 let addArr = [];
@@ -517,7 +517,7 @@ for(let i=0; i<arr.length; i++){
 }
 console.log(addArr) */
 
-//54. Elementləri kiçikdən böyüyə sıralayın
+//TODO 54. Elementləri kiçikdən böyüyə sıralayın
 /* let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
 arr.sort((a,b)=>{
   return a-b;
@@ -538,3 +538,4 @@ arr.forEach(element =>{
 })
 
 console.log(addArr)
+//TODO 55. Elementləri aldığı parametr-ə görə (kiçikdən böyüyə və ya böyükdən kiçiyə) sıralayan funksiya yazın
