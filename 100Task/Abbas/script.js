@@ -603,3 +603,14 @@ for (let index = 0; index < arr.length; index++) {
 }
 console.log(addArr);
  */
+
+// todo 54. Elementləri kiçikdən böyüyə sıralayın.
+/* let arr = [-12, -20, -1, 0, 5, 1, 11, 35];
+arr.sort((a, b) => {
+  return a - b;
+});
+console.log(arr);
+ */
+
+// todo 55. Elementləri aldığı parametr-ə görə (kiçikdən böyüyə və ya böyükdən kiçiyə) sıralayan funksiya yazın.
+ 
