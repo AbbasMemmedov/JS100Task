@@ -613,23 +613,21 @@ console.log(arr);
  */
 
 // todo 55. Elementləri aldığı parametr-ə görə (kiçikdən böyüyə və ya böyükdən kiçiyə) sıralayan funksiya yazın.
-/*let arr = [-12, -5,2, 0, 5, -2, 7, 4];
+/* let arr = [-12, -5, 2, 0, 5, -2, 7, 4];
 let secim = confirm("Kicikdən böyüyə olsun? (true)");
-
-sorter(arr, secim)
-
+sorter(arr, secim);
 function sorter(arr, secim) {
   if (secim) {
-    arr.sort((a,b) => {
-      return a - b
-    })
-  }else {
-    arr.sort((a,b) => {
-       return b - a
-    })
+    arr.sort((a, b) => {
+      return a - b;
+    });
+  } else {
+    arr.sort((a, b) => {
+      return b - a;
+    });
   }
   console.log(arr);
 }
-*/
+ */
 
-// 
+// todo 56. Mənfi ədədləri silib yeni array yaradın.
