@@ -505,13 +505,23 @@ function tekMassiv(array) {
 
 //53. Mənfi ədədləri müsbətə çevirib yeni array yaradın
 
-let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
+/* let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
 let addArr = [];
 
 for(let i=0; i<arr.length; i++){
    if(arr[i]< 0){
      addArr.push(arr[i] * -1);
-    console.log(addArr);
+   }else{
+    addArr.push(arr[i])
    }
 }
+console.log(addArr) */
 
+//54. Elementləri kiçikdən böyüyə sıralayın
+/* let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
+arr.sort((a,b)=>{
+  return a-b;
+})
+console.log(arr) */
+
+//55. Elementləri aldığı parametr-ə görə (kiçikdən böyüyə və ya böyükdən kiçiyə) sıralayan funksiya yazın
