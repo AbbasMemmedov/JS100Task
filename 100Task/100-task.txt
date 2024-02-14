@@ -67,3 +67,13 @@ Tək massiv içində istifadəçilərin məlumatlarını bildirən birdən çox 
 58. İstifadəçilərin sadəcə adlarının olduğu massiv yaradın
 59. Kişiləri və qadınları ayrı array-lərə yığın
 60. Yaşı 60-dan az olanları çıxarıb qalanlarını bir massivə yığın
+
+61. İstifadəçilərin yaşları cəmi hansısa bir ədəddən böyük olduqda onların bütün məlumatlarını ekrana verən funksiya yazın
+62. Cinsiyətlərə görə ayrılmış istifadəçi sayını ekrana verən funksiya yazın
+63. Yaşa görə ən böyük və ən kiçik istifadəçilərin məlumatlarını ekrana verən funksiya yazın
+64. Adlara görə əlifba sırası ilə sıralanmış istifadəçilərin məlumatlarını ekrana verən funksiya yazın
+65. Yaşı 25-40 aralığında olan istifadəçilərin yaşlarının ortalamasını ekrana verən funksiya yazın
+66. Adında 'a' hərfi olan istifadəçilərin məlumatlarını ekrana verən funksiya yazın
+67. Cinsiyətə görə ayrılmış istifadəçilərin yaşlarının cəmini ekrana verən funksiya yazın
+68. İstifadəçilərin yaşları arasında ən çox rast gəlinən yaşın hansı olduğunu və bu yaşa sahib olan 69. istifadəçilərin məlumatlarını ekrana verən funksiya yazın
+70. Ad və soyadı eyni olan istifadəçilərin məlumatlarını ekrana verən funksiya yazın
