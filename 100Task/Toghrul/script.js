@@ -617,7 +617,24 @@ addValue(promptValue); */
 // TODO 62. Cinsiyətlərə görə ayrılmış istifadəçi sayını ekrana verən funksiya yazın
 // TODO 63. Yaşa görə ən böyük və ən kiçik istifadəçilərin məlumatlarını ekrana verən funksiya yazın
 // TODO 64. Adlara görə əlifba sırası ilə sıralanmış istifadəçilərin məlumatlarını ekrana verən funksiya yazın
+/* let addArr = [];
+for (let index = 0; index < arr.length; index++) {
+  console.log(arr[index].name) ;
+  addArr.push(arr[index].name);
+  addArr.sort()
+}
+console.log(addArr) */
 // TODO 65. Yaşı 25-40 aralığında olan istifadəçilərin yaşlarının ortalamasını ekrana verən funksiya yazın
+/* let averageAge = 0;
+function averAge(d){
+  for (let index = 0; index < d.length; index++) {
+    console.log(d[index].age);
+    averageAge = Math.floor((averageAge +d[index].age)/2);
+  }
+  console.log(averageAge)
+}
+
+averAge(arr) */
 // TODO 66. Adında 'a' hərfi olan istifadəçilərin məlumatlarını ekrana verən funksiya yazın
 // TODO 67. Cinsiyətə görə ayrılmış istifadəçilərin yaşlarının cəmini ekrana verən funksiya yazın
 /* let sum = 0;
@@ -649,28 +666,34 @@ let arr = [
     gender: "male"
   },
   {
-    name: "Thomas",
+    name: "Yhomas",
     surname: "Alm",
     age: 35,
     gender: "famele"
   },
   {
-    name: "Thoras",
+    name: "Zhoras",
     surname: "Ziama",
     age: 30,
     gender: "male"
   },
   {
-    name: "Thors",
+    name: "Shors",
     surname: "Zama",
-    age: 10,
+    age: 40,
     gender: "male"
   },
 ]
 
-
-
-
+let addArr = [];
+for(i = 0; i<arr.length; i++){
+  console.log(arr[i].age)
+  addArr.push(arr[i].age)
+  addArr.sort((a,b)=>{
+    return a-b;
+  })
+}
+console.log(addArr)
 
 
 
