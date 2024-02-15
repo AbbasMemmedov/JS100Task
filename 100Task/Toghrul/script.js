@@ -540,9 +540,7 @@ arr.forEach((element) => {
 }); */
 
 // TODO. Tək massiv içində istifadəçilərin məlumatlarını bildirən birdən çox obyekt verilib. Bu obyektlərin içində fullName, age və gender key-ləri təyin olunub. Bu massivə əsasən:
-
-
-
+/* 
 let arr = [
   {
     name: "Thom",
@@ -569,7 +567,7 @@ let arr = [
     age: 64,
     gender: "famale"
   },
-]
+] */
 //TODO 58. İstifadəçilərin sadəcə adlarının olduğu massiv yaradın
 
 
@@ -601,3 +599,85 @@ for (let index = 0; index < arr.length; index++) {
   
 }
 console.log(newAge) */
+
+// TODO 61. İstifadəçilərin yaşları cəmi hansısa bir ədəddən böyük olduqda onların bütün məlumatlarını ekrana verən funksiya yazın
+/* function addValue(value){
+  for (let index = 0; index < arr.length; index++) {
+  sum+=arr[index].age;
+  if(promptValue<sum){
+    console.log("Daxil edilmish eded yaslarinin ceminden azdir")
+  }else{
+    console.log(arr[index])
+  }
+}
+}
+let promptValue = prompt("Eded daxil edin");
+let sum = 0;
+addValue(promptValue); */
+// TODO 62. Cinsiyətlərə görə ayrılmış istifadəçi sayını ekrana verən funksiya yazın
+// TODO 63. Yaşa görə ən böyük və ən kiçik istifadəçilərin məlumatlarını ekrana verən funksiya yazın
+// TODO 64. Adlara görə əlifba sırası ilə sıralanmış istifadəçilərin məlumatlarını ekrana verən funksiya yazın
+// TODO 65. Yaşı 25-40 aralığında olan istifadəçilərin yaşlarının ortalamasını ekrana verən funksiya yazın
+// TODO 66. Adında 'a' hərfi olan istifadəçilərin məlumatlarını ekrana verən funksiya yazın
+// TODO 67. Cinsiyətə görə ayrılmış istifadəçilərin yaşlarının cəmini ekrana verən funksiya yazın
+/* let sum = 0;
+function addSum(a){
+  for (i = 0; i< arr.length; i++){
+  sum+=arr[i].age;
+  
+}
+console.log(sum)
+}
+
+addSum(arr); */
+// TODO 68. İstifadəçilərin yaşları arasında ən çox rast gəlinən yaşın hansı olduğunu və bu yaşa sahib olan 
+// TODO 69. istifadəçilərin məlumatlarını ekrana verən funksiya yazın
+/* function addArr(a){
+  for (let index = 0; index < a.length; index++) {
+  console.log(a[index]);
+}
+}
+addArr(arr) */
+
+// TODO 70. Ad və soyadı eyni olan istifadəçilərin məlumatlarını ekrana verən funksiya yazın
+
+let arr = [
+  {
+    name: "Thomas",
+    surname: "Alm",
+    age: 25,
+    gender: "male"
+  },
+  {
+    name: "Thomas",
+    surname: "Alm",
+    age: 35,
+    gender: "famele"
+  },
+  {
+    name: "Thoras",
+    surname: "Ziama",
+    age: 30,
+    gender: "male"
+  },
+  {
+    name: "Thors",
+    surname: "Zama",
+    age: 10,
+    gender: "male"
+  },
+]
+
+
+
+
+
+
+
+  
+
+ 
+
+
+
+
