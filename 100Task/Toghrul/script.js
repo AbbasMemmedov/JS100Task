@@ -130,8 +130,8 @@ while (loop) {
   }
 } */
 
-/* 17. let promptValue = prompt("Eded daxil edin");
-let totalReuslt = [];
+// TODO 17. let promptValue = prompt("Eded daxil edin");
+/*let totalReuslt = [];
 for (let index = 0; index < promptValue.length; index++) {
   totalReuslt.push(promptValue[index]);
   totalReuslt.sort();
@@ -143,28 +143,10 @@ console.log(totalReuslt); */
 for (let index = 0; index < promptValue.length; index ++) {
   let result = promptValue.slice(index, (index += 1));
   console.log(result);
-}
- */
-
-//17. Daxil edilmiş 3 rəqəmli ədədin rəqəmlərini artan sırayla sıralayıb ekrana verin
-
-/* let enteredNum= prompt("Enter the number:") //276831
-
-let result=""
-let min;
-let max;
-for(let i=0;i<enteredNum.length;i++){ //i = 0 enteredNum[1] -> 7
-  for(let j=i+1;j<enteredNum.length;j++){  // j=2 enteredNum[2] -> 6
-    if(enteredNum[i]>enteredNum[j]){
-      max = enteredNum[i]; // 3
-      enteredNum[i] =2
-      enteredNum[j] = max
-    }
-
-  }
 } */
 
-//18. Daxil edilmiş ədədin sadə olub olmamasını yoxlayan və çıxışa uyğun olaraq true və ya false verən proqram yazın
+
+// TODO 18. Daxil edilmiş ədədin sadə olub olmamasını yoxlayan və çıxışa uyğun olaraq true və ya false verən proqram yazın
 
 /* let promptValue = +prompt("Eded daxil edin");
 let simpleNumb;
@@ -188,7 +170,7 @@ if (promptValue == 1) {
   alert("Eded daxil edin");
 } */
 
-//19. Daxil edilmiş ədəddən kiçik ədədlər arasından tam kub olan ən böyük ədədi ekrana verin
+// TODO 19. Daxil edilmiş ədəddən kiçik ədədlər arasından tam kub olan ən böyük ədədi ekrana verin
 
 /* let promptValue = prompt("Eded daxil edin");
 let largestCube = 0;
@@ -200,7 +182,7 @@ for (let i = 1; i < promptValue; i++) {
 }
 console.log(largestCube); */
 
-//21. Verilmiş ədədin uzunluğunu geri qaytaran funksiya yazın.
+// TODO 21. Verilmiş ədədin uzunluğunu geri qaytaran funksiya yazın.
 
 /* function callLength(){
   let promptValue = prompt("Eded daxil edin");
@@ -210,7 +192,7 @@ console.log(length)
 
 callLength() */
 
-//22. Daxil edilən name parametrinə uyğun olaraq Salam <name>! mesajını ekrana verin. name təqdim olunmazsa Salam qonaq! mesajını ekrana verin
+// TODO 22. Daxil edilən name parametrinə uyğun olaraq Salam <name>! mesajını ekrana verin. name təqdim olunmazsa Salam qonaq! mesajını ekrana verin
 
 /* let a = prompt("Ad daxil edin");
 
@@ -220,7 +202,7 @@ if(a !== null && a !== "") {
   console.log("Salam qonaq!")
 } */
 
-//23. Verilmiş ədədin palindrom olub olmadığını yoxlayan funksiya yazın
+// TODO 23. Verilmiş ədədin palindrom olub olmadığını yoxlayan funksiya yazın
 /* function palindromNumb(numb){
   let newNumb = "";
   for( let i= numb.length-1; i>=0; i--){
@@ -238,7 +220,7 @@ let promptValue = prompt("Eded daxil edin");
 
 palindromNumb(promptValue) */
 
-//24. Daxil edilmiş 3 rəqəmli ədədin rəqəmlərinin fərqli olub olmadığını yoxlayan funksiya yazın
+// TODO 24. Daxil edilmiş 3 rəqəmli ədədin rəqəmlərinin fərqli olub olmadığını yoxlayan funksiya yazın
 
 /* function checkNumb(num){
   let isDiff =true;
@@ -266,7 +248,7 @@ palindromNumb(promptValue) */
 let promptValue = prompt("Eded daxil edin");
 checkNumb(promptValue); */
 
-//25. Daxil edilmiş rəqəmdən kiçik 10-a bölünən ədədi qaytaran funksiya yazın
+// TODO 25. Daxil edilmiş rəqəmdən kiçik 10-a bölünən ədədi qaytaran funksiya yazın
 
 /* let promptValue = prompt("Eded daxil edin");
 
@@ -277,7 +259,7 @@ if(i % 10 == 0 ){
 
 } */
 
-//26. Verilmiş n və m ədədlərinə uyğun olaraq n^m-i hesablayın. m təqdim edilməzsə dəyəri 2 olaraq qəbul edin
+// TODO 26. Verilmiş n və m ədədlərinə uyğun olaraq n^m-i hesablayın. m təqdim edilməzsə dəyəri 2 olaraq qəbul edin
 
 /* let n = +prompt("Eded daxil edin");
 let m = +prompt("Yeni eded daxil edin");
@@ -295,7 +277,7 @@ else if(n != "" && m != null){
 
 }  */
 
-// 27. Ədədin sondan n-inci rəqəmini tapan funksiya yazın
+// TODO 27. Ədədin sondan n-inci rəqəmini tapan funksiya yazın
 
 /* function addNumber(){
 let promptValue = prompt("Eded daxil edin");
@@ -305,7 +287,7 @@ console.log(lastElement)
 
 addNumber(); */
 
-//28. Daxil edilmiş ədədin sadə olub olmamasını yoxlayan və çıxışa uyğun olaraq true və ya false verən funksiya yazın
+// TODO 28. Daxil edilmiş ədədin sadə olub olmamasını yoxlayan və çıxışa uyğun olaraq true və ya false verən funksiya yazın
 /* function addNumber(){
   let promptValue = +prompt("Eded daxil edin");
 let simpleNumb;
@@ -331,7 +313,7 @@ if (promptValue == 1) {
 
 addNumber(); */
 
-//29. Daxil edilmiş ədəddən kiçik tək ədədlərin sayını hesablayan funksiya yazın. Verilən ədəd mənfi olarsa böyük olan tək ədədlərin sayını tapın
+// TODO 29. Daxil edilmiş ədəddən kiçik tək ədədlərin sayını hesablayan funksiya yazın. Verilən ədəd mənfi olarsa böyük olan tək ədədlərin sayını tapın
 
 /* function addNumber(){
   let promptValue = +prompt("Eded daxil edin"); // 123456;   21/2
@@ -345,7 +327,7 @@ if(promptValue >0){
 }
 addNumber(); */
 
-//30. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən funksiya yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1)
+// TODO 30. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən funksiya yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1)
 
 /* function addNumber (){
   let promtMoney = prompt("Mebleg daxil edin"); // 550
@@ -368,7 +350,7 @@ addNumber(); */
 }
 addNumber(); */
 
-//31. Massivin ilk elementini qaytaran funksiya yazın
+// TODO 31. Massivin ilk elementini qaytaran funksiya yazın
 
 /* function addNumber(a){
   console.log(a[0])
@@ -376,7 +358,7 @@ addNumber(); */
 let promptValue = prompt("Eded daxil edin");
 addNumber(promptValue); */
 
-//32. Massivin son elementini qaytaran funksiya yazın
+// TODO 32. Massivin son elementini qaytaran funksiya yazın
 /* function addNumb(a) {
   let lastNumb = promptValue[promptValue.length-1];
   console.log(lastNumb);
@@ -385,7 +367,7 @@ addNumber(promptValue); */
 
  addNumb(promptValue); */
 
-//33. Verilən obyekin yalnız key-lərini ekrana verən funksiya yazın
+// TODO 33. Verilən obyekin yalnız key-lərini ekrana verən funksiya yazın
 
 /* function addProp(){
   let obj = {
@@ -400,7 +382,7 @@ addNumber(promptValue); */
 
 addProp(); */
 
-//34. Verilən obyekin yalnız value-larını ekrana verən funksiya yazın
+// TODO 34. Verilən obyekin yalnız value-larını ekrana verən funksiya yazın
 
 /* function addProp(){
   let obj = {
@@ -415,7 +397,7 @@ addProp(); */
 
 addProp(); */
 
-//35. Obyektin proprty-lərinin sayını qaytaran funksiya yazın
+// TODO 35. Obyektin proprty-lərinin sayını qaytaran funksiya yazın
 
 /* function addProp(){
   let obj = {
@@ -429,6 +411,12 @@ addProp(); */
 }
 
 addProp(); */
+
+// TODO 36. Massivin ilk n elementini ekrana verən funksiya yazın
+
+// TODO 37. Massivin son n elementini ekrana verən funksiya yazın
+
+
 /* console.log(word[i]);
 let promptValue = 3;
 let word = "thomas";
@@ -436,11 +424,11 @@ for(let i = 0; i<promptValue; i++){
   
 } */
 
-//38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean)
+// TODO 38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean)
 
-//39. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın
+// TODO 39. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın
 
-//40. Massivin tək yerdə duran elementlərini null-a çevirən funksiya yazın
+// TODO 40. Massivin tək yerdə duran elementlərini null-a çevirən funksiya yazın
 
 /* let arr = [];
 let promptValue = prompt("deyer daxil edin")
@@ -458,7 +446,7 @@ function tekMassiv(array) {
   console.log(array);
 } */
 
-//41. Massivin verilən indeksdən sonrakı elementlərini silən funksiya yazın
+// TODO 41. Massivin verilən indeksdən sonrakı elementlərini silən funksiya yazın
 /*let arr = [];
 let promptValue = prompt("deyer daxil edin") //12345
 for (let j = 0; j < promptValue.length; j++) {
@@ -474,30 +462,88 @@ function tekMassiv(array) {
   console.log(array);
 } */
 
-//42. Aldığı parametrlərə görə yeni obyekt yaradan funksiya yazın (məs.: createObj('Elchin', 'Zadeh') => {name: 'Elchin', surname: 'Zadeh'})
+// TODO 42. Aldığı parametrlərə görə yeni obyekt yaradan funksiya yazın (məs.: createObj('Elchin', 'Zadeh') => {name: 'Elchin', surname: 'Zadeh'})
 
-//43. Aldığı parametrlərə görə obyektə yeni property əlavə edən funksiya yazın (məs.: updateObj({}, 'name', 'Elchin') => {name: 'Elchin'})
+// TODO 43. Aldığı parametrlərə görə obyektə yeni property əlavə edən funksiya yazın (məs.: updateObj({}, 'name', 'Elchin') => {name: 'Elchin'})
 
-//44. Verilən 2 massivi birləşdirib tək bir massiv qaytaran funksiya yazın
+//TODO  44. Verilən 2 massivi birləşdirib tək bir massiv qaytaran funksiya yazın
 
-//45. Obyektin seçilən property-sini silən funksiya yazın (məs.: deleteKey(obj, key))
+/* let arr = [12, 23, 45, 54, 3];
+let addArr = [ 2, 4, 5, 7, 8];
+let newArr = arr.concat(addArr)
+console.log(newArr) */
 
-//46. Massivin klonunu yaradan funksiya yazın
+// TODO  45. Obyektin seçilən property-sini silən funksiya yazın (məs.: deleteKey(obj, key))
+/* let obj = {
+  name: "thom",
+  surname: "anderson",
+  age: 18
+}
 
-//47. Obyektin klonunu yaradan funksiya yazın
+delete obj.name
+console.log(obj) */
 
-//48. Verilən obyektdə dəyəri string olan elementlərin key-lərini ekrana verən funksiya yazın
+// TODO  46. Massivin klonunu yaradan funksiya yazın
+/* let arr = [12, 23, 45, 54, 3, 6]
 
-//49. Massivdə ən çox işlənən elementi qaytaran funksiya yazın
+let newArr = [...arr];
+console.log(arr)
+console.log(newArr) */
+
+// TODO  47. Obyektin klonunu yaradan funksiya yazın
+/* let arr = {num:12, age: 18}
+
+let newArr = {...arr}
+console.log(newArr) */
+// TODO  48. Verilən obyektdə dəyəri string olan elementlərin key-lərini ekrana verən funksiya yazın
+/* let obj = {
+  name: "Thomas",
+  surname: "Anderson",
+  age: 18
+}
+if(typeof obj [key] === "string"){
+  console.log(key)
+} */
+
+/* let obje = {
+  name: "John",
+  age: 30,
+  city: "New York",
+  email: "example@example.com"
+};
+
+for (let key in obje) {
+  if (typeof obje[key] === "string") {
+      console.log(key);
+  }
+} */
+
+// TODO 49. Massivdə ən çox işlənən elementi qaytaran funksiya yazın
 
 //50. Massivin elementlərini ayrı ayrı console-a verən funksiya yazın
+/* let arr = [12, 23, 34, 45, 56, 67]
+for(i = 0; i<arr.length; i++){
+  console.log(arr[i])
+} */
 
-//51. Massivin içindəki bütün string-ləri birləşdirən funksiya yazın
+// TODO 51. Massivin içindəki bütün string-ləri birləşdirən funksiya yazın
+/* let arr = ["a", "b", "v", "c", "f", "g"]
+let sum = "";
+for(let i = 0; i< arr.length; i++){
+  sum +=arr[i];
+}
+console.log(sum) */
 
-//52. Massivin içindəki 0dan fərqli olan ədədləri bir-birinə vuran funksiya yazın
-
+// TODO 52. Massivin içindəki 0 dan fərqli olan ədədləri bir-birinə vuran funksiya yazın
+/* let arr = [2, 3, 4, 0, 5, 6, 7]
+let mult = 1;
+for(let i=0; i<arr.length; i++){
+if(arr[i] != 0){
+mult *= arr[i]
+}
+}
+console.log(mult) */
 // TODO 53. Mənfi ədədləri müsbətə çevirib yeni array yaradın
-
 /* let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
 let addArr = [];
 
@@ -510,16 +556,16 @@ for(let i=0; i<arr.length; i++){
 }
 console.log(addArr) */
 
-//TODO 54. Elementləri kiçikdən böyüyə sıralayın
+// TODO 54. Elementləri kiçikdən böyüyə sıralayın
 /* let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
 arr.sort((a,b)=>{
   return a-b;
 })
 console.log(arr) */
 
-//55. Elementləri aldığı parametr-ə görə (kiçikdən böyüyə və ya böyükdən kiçiyə) sıralayan funksiya yazın
+// TODO 55. Elementləri aldığı parametr-ə görə (kiçikdən böyüyə və ya böyükdən kiçiyə) sıralayan funksiya yazın
 
-//56. Mənfi ədədləri silib yeni array yaradın
+// TODO 56. Mənfi ədədləri silib yeni array yaradın
 
 /* let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
 let addArr = [];
@@ -529,9 +575,7 @@ arr.forEach(element =>{
     addArr.push(element)
   }
 })
-
 console.log(addArr) */
-//TODO 55. Elementləri aldığı parametr-ə görə (kiçikdən böyüyə və ya böyükdən kiçiyə) sıralayan funksiya yazın
 
 //TODO 57. Hər elementdən sadəcə birinin olduğu yeni bir massiv yaradın
 /* let arr = [-12, -20, -1, 0, 5, 1, 11, 35];
@@ -683,21 +727,22 @@ let arr = [
     age: 40,
     gender: "male"
   },
+  {
+    name: "Dhors",
+    surname: "Zama",
+    age: 32,
+    gender: "female"
+  },
+  {
+    name: "Rhors",
+    surname: "Zama",
+    age: 23,
+    gender: "male"
+  },
 ]
 
-let addArr = [];
-for(i = 0; i<arr.length; i++){
-  console.log(arr[i].age)
-  addArr.push(arr[i].age)
-  addArr.sort((a,b)=>{
-    return a-b;
-  })
-}
-console.log(addArr)
 
 
-
-  
 
  
 
