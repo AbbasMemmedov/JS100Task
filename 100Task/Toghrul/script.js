@@ -785,11 +785,12 @@ addArr(arr) */
 ] */
 
 
+// TODO 38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean)
 
-
-
+// TODO 43. Aldığı parametrlərə görə obyektə yeni property əlavə edən funksiya yazın (məs.: updateObj({}, 'name', 'Elchin') => {name: 'Elchin'})
  
+// TODO 62. Cinsiyətlərə görə ayrılmış istifadəçi sayını ekrana verən funksiya yazın
+// TODO 63. Yaşa görə ən böyük və ən kiçik istifadəçilərin məlumatlarını ekrana verən funksiya yazın
 
-
-
+// TODO 68. İstifadəçilərin yaşları arasında ən çox rast gəlinən yaşın hansı olduğunu və bu yaşa sahib olan 
 
