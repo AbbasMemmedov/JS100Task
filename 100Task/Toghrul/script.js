@@ -1,6 +1,6 @@
-//let userNumb = prompt("Eded daxil edin");
 
-/* 2. let promptValue = prompt("Tek eded daxil edin");
+// TODO 2. İstifadəçidən tək sayda rəqəmlərdən ibarət olan ədəd daxil etməsini istəyin. Onun ortada duran rəqəmini ekrana verin
+/* let promptValue = prompt("Tek eded daxil edin");
 let trueValue = true;
 for (let index = 0; index < promptValue.length; index++) {
   console.log(promptValue[index]);
@@ -16,15 +16,18 @@ if (trueValue) {
   alert(promptValue[promptValueIndex]);
 }
  */
-// 3. let userNumber = userNumb.substr(0, userNumb.length-1);
-// 4. let userNumber = userNumb.substr(1, userNumb.length);
-/* 5. if(userNumb % 3 == 0 && userNumb % 5 == 0) {
+// TODO 3. İstifadəçidən ədəd daxil etməsini istəyin. O ədədin son rəqəmini silib ekrana verin
+// let userNumber = userNumb.substr(0, userNumb.length-1);
+// TODO 4. İstifadəçidən ədəd daxil etməsini istəyin. O ədədin ilk rəqəmini silib ekrana verin
+// let userNumber = userNumb.substr(1, userNumb.length);
+// TODO 5. Daxil edilmiş ədədin 3 və 5-ə eyni anda bölünüb bölünmədiyini yoxlayan proqram yazın
+/* if(userNumb % 3 == 0 && userNumb % 5 == 0) {
     alert(userNumb)
 }else {
     alert("Duzgun eded qeyd edin")
 } */
-
-/* 6. let userNumb = [3,4,1,34,90,89,90]
+// TODO 6. Daxil edilmiş ədədin içində 6 rəqəminin ölub olmadığını yoxlayan proqram yazın
+/* let userNumb = [3,4,1,34,90,89,90]
 userNumb.forEach(element => {
     if(element == 1){
         console.log(element)
@@ -32,8 +35,8 @@ userNumb.forEach(element => {
         console.log("Bele bir eded yoxdu")
     }
 }); */
-
-/* 7. let promptValue = +prompt("Eded daxil edin");
+// TODO 7. Daxil edilmiş ədəddən böyük (növbəti) 11-ə bölünən ədədi ekrana verin
+/* let promptValue = +prompt("Eded daxil edin");
 while(true){
    if(promptValue % 11 == 0){
     alert(promptValue)
@@ -42,21 +45,21 @@ while(true){
     promptValue++
    }
 } */
-
-/* 8. let promptValue = +prompt("Eded daxil edin");
+// TODO 8. İstifadəçidən hər hansı bir ədəd və hesablamaq istədiyi qüvvəti daxil etməsini istəyin. Bu ədədlərə görə nəticəni hesablayıb ekrana verin
+/* let promptValue = +prompt("Eded daxil edin");
 let promptPow = +prompt("Ikinci daxil edeceyiniz eded birincinin quvveti olacaq");
 
 let result = promptValue ** promptPow;
 alert(result); */
-
-/* 9. let promptValue = prompt("Eded daxil edin");
+// TODO 9. İstifadəçidən 5 rəqəmli ədəd daxil etməsini istəyin. O ədədin rəqəmlərinin cəmini ekrana verin
+/* let promptValue = prompt("Eded daxil edin");
 let sum = 0;
 for (let index = 0; index < promptValue.length; index++) {
    sum+= parseInt(promptValue[index]);
 }
 console.log(sum)   */
-
-/* 10. let promptValue = prompt("Eded daxil edin");
+// TODO 10. İstifadəçidən istənilən rəqəmli ədəd daxil etməsini istəyin. O ədədin rəqəmlərinin cəmini ekrana verin
+/* let promptValue = prompt("Eded daxil edin");
 let sum = 0;
 if(promptValue.length == 5){
     for (let index = 0; index < promptValue.length; index++) {
@@ -66,8 +69,8 @@ console.log(sum)
 }else {
     alert("Bes reqemli eded daxil edin")
 } */
-
-/*  11. let promptValue = prompt("Eded daxil edin");
+// TODO 11. İstifadəçidən 5 rəqəmli ədəd daxil etməsini istəyin. Ədədin tərsini ekrana verin (12345 > 54321)
+/* let promptValue = prompt("Eded daxil edin");
 let oppositeResult = '';
 if(promptValue.length == 5){
     for (let index = promptValue.length-1; index >=0; index--) {
@@ -77,23 +80,23 @@ if(promptValue.length == 5){
     alert(" 5 reqemli eded daxil edin")
 }
 console.log(oppositeResult) */
-
-/* 12. let promptValue = prompt("Eded daxil edin");
+// TODO 12. İstifadəçidən istənilən rəqəmli ədəd daxil etməsini istəyin. Ədədin tərsini ekrana verin (12345 > 54321)
+/* let promptValue = prompt("Eded daxil edin");
 let oppositeResult = '';
 
 for (let index = promptValue.length-1; index >=0; index--) {
     oppositeResult+=promptValue[index];
 }
 console.log(oppositeResult) */
-
-/* 13. let a = prompt("Birinci terefein reqemini daxil edin")
+// TODO 13. İstifadəçinən düzbucaqlı paralelepipedin tərəflərini daxil etməsini istəyin. Bu tərəflərə görə paralelepipedin həcmini hesablayıb ekrana verin
+/* let a = prompt("Birinci terefein reqemini daxil edin")
 let b = prompt("Ikinci terefein reqemini daxil edin")
 let c = prompt("Uchuncu terefein reqemini daxil edin")
 let result = 1;
 result = a * b * c
 alert(result) */
-
-/* 14. let promptValue = prompt("Eded daxil edin")//246
+// TODO 14. Daxil edilmiş ədədin tək yerdə duran rəqəmlərini silib ekrana verən proqram yazın
+/* let promptValue = prompt("Eded daxil edin")//246
 let result = '';
 for (let index = 0; index < promptValue.length; index++) {
     if(index % 2 == 0){
@@ -101,8 +104,8 @@ for (let index = 0; index < promptValue.length; index++) {
     }
 }
 console.log(result) */
-
-/* 15. let promptValue = prompt("Eded daxil edin");
+// TODO 15. Daxil edilmiş ədədin mənfi, sıfır və ya müsbət olmağından asılı olaraq çıxışa uyğun olaraq -1, 0 və ya 1 verin.
+/* let promptValue = prompt("Eded daxil edin");
 
 if(promptValue<0){
   console.log(-1)
@@ -111,9 +114,8 @@ console.log(0)
 }else{
     console.log(1)
 } */
-
+// TODO 16. Daxil edilmiş məbləği ən az sayda əsginasla qaytarmaq üçün lazım olan əsginasları və saylarını ekrana verən proqram yazın (məs.: 248 > 2-100, 2-20, 1-5, 3-1)
 /* let promtMoney = prompt("Mebleg daxil edin"); // 550
-
 let banknote = [200, 100, 50, 20, 10, 5, 1];
 let index = 0;
 let loop = true;
@@ -427,11 +429,19 @@ for(let i = 0; i<promptValue; i++){
 // TODO 38. .hasOwnProperty metodundan istifadə etmədən onun işini görən funksiya yazın (məs.: hasOwn(obj, key) => Boolean)
 
 // TODO 39. Massivin bütün elementlərini ulduz (*) ilə ayıraraq ekrana verən funksiya yazın
+/* let arr = [12,34,45,12,34,12, "v", "v"]
+let newArr = [];
+function array(a){
+  console.log(a.join("*"))
+  newArr.push(a.join("*")) 
+}
+array(arr)
+console.log(newArr) */
 
 // TODO 40. Massivin tək yerdə duran elementlərini null-a çevirən funksiya yazın
 
 /* let arr = [];
-let promptValue = prompt("deyer daxil edin")
+let promptValue = prompt("Deyer daxil edin")
 for (let j = 0; j < promptValue.length; j++) {
   arr.push(promptValue[j])
 }
@@ -464,6 +474,16 @@ function tekMassiv(array) {
 
 // TODO 42. Aldığı parametrlərə görə yeni obyekt yaradan funksiya yazın (məs.: createObj('Elchin', 'Zadeh') => {name: 'Elchin', surname: 'Zadeh'})
 
+/* function obj(param1, param2){
+  return {
+    name: param1,
+    surname: param2
+  }
+}
+let newObj = obj("Thom", "Anderson")
+console.log(newObj) */
+
+
 // TODO 43. Aldığı parametrlərə görə obyektə yeni property əlavə edən funksiya yazın (məs.: updateObj({}, 'name', 'Elchin') => {name: 'Elchin'})
 
 //TODO  44. Verilən 2 massivi birləşdirib tək bir massiv qaytaran funksiya yazın
@@ -492,7 +512,6 @@ console.log(newArr) */
 
 // TODO  47. Obyektin klonunu yaradan funksiya yazın
 /* let arr = {num:12, age: 18}
-
 let newArr = {...arr}
 console.log(newArr) */
 // TODO  48. Verilən obyektdə dəyəri string olan elementlərin key-lərini ekrana verən funksiya yazın
@@ -501,22 +520,15 @@ console.log(newArr) */
   surname: "Anderson",
   age: 18
 }
-if(typeof obj [key] === "string"){
-  console.log(key)
-} */
-
-/* let obje = {
-  name: "John",
-  age: 30,
-  city: "New York",
-  email: "example@example.com"
-};
-
-for (let key in obje) {
-  if (typeof obje[key] === "string") {
+function newObj(obj){
+  for (const key in obj) {
+    if (typeof obj[key] == "string") { 
       console.log(key);
+    }
   }
-} */
+}
+newObj(obj) */
+
 
 // TODO 49. Massivdə ən çox işlənən elementi qaytaran funksiya yazın
 
@@ -546,7 +558,6 @@ console.log(mult) */
 // TODO 53. Mənfi ədədləri müsbətə çevirib yeni array yaradın
 /* let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
 let addArr = [];
-
 for(let i=0; i<arr.length; i++){
    if(arr[i]< 0){
      addArr.push(arr[i] * -1);
@@ -564,7 +575,25 @@ arr.sort((a,b)=>{
 console.log(arr) */
 
 // TODO 55. Elementləri aldığı parametr-ə görə (kiçikdən böyüyə və ya böyükdən kiçiyə) sıralayan funksiya yazın
+/*
+let arr = [-12, -5,2, 0, 5, -2, 7, 4];
+let secim = confirm("Kicikdən böyüyə olsun? (true)");
 
+sorter(arr, secim)
+
+function sorter(arr, secim) {
+  if (secim) {
+    arr.sort((a,b) => {
+      return a - b
+    })
+  }else {
+    arr.sort((a,b) => {
+       return b - a
+    })
+  }
+  console.log(arr);
+}
+*/
 // TODO 56. Mənfi ədədləri silib yeni array yaradın
 
 /* let arr = [-12, -20, -1 , 0, 5, 1, 11, 35]
@@ -584,8 +613,8 @@ arr.forEach((element) => {
 }); */
 
 // TODO. Tək massiv içində istifadəçilərin məlumatlarını bildirən birdən çox obyekt verilib. Bu obyektlərin içində fullName, age və gender key-ləri təyin olunub. Bu massivə əsasən:
-/* 
-let arr = [
+
+/* let arr = [
   {
     name: "Thom",
     age: 25,
@@ -613,8 +642,6 @@ let arr = [
   },
 ] */
 //TODO 58. İstifadəçilərin sadəcə adlarının olduğu massiv yaradın
-
-
 /* let addArr = []
 for (let index = 0; index < arr.length; index++) {
   addArr.push(arr[index].name);  
@@ -640,7 +667,6 @@ for (let index = 0; index < arr.length; index++) {
   if(arr[index].age > 60){
     newAge.push(arr[index].name)
   }
-  
 }
 console.log(newAge) */
 
@@ -680,16 +706,33 @@ function averAge(d){
 
 averAge(arr) */
 // TODO 66. Adında 'a' hərfi olan istifadəçilərin məlumatlarını ekrana verən funksiya yazın
+
+/* let arr = [
+  {
+    name: "Thomas",
+    surname: "Anderson",
+    age: 16
+  },
+  {
+    name: "Thanos",
+    surname: "Andrea",
+    age: 15
+  },
+  {
+    name: "Thomis",
+    surname: "Menderson",
+    age: 19
+  }
+] */
+
 // TODO 67. Cinsiyətə görə ayrılmış istifadəçilərin yaşlarının cəmini ekrana verən funksiya yazın
 /* let sum = 0;
 function addSum(a){
-  for (i = 0; i< arr.length; i++){
-  sum+=arr[i].age;
-  
+  for (i = 0; i< a.length; i++){
+  sum+=a[i].age;
 }
 console.log(sum)
 }
-
 addSum(arr); */
 // TODO 68. İstifadəçilərin yaşları arasında ən çox rast gəlinən yaşın hansı olduğunu və bu yaşa sahib olan 
 // TODO 69. istifadəçilərin məlumatlarını ekrana verən funksiya yazın
@@ -702,7 +745,7 @@ addArr(arr) */
 
 // TODO 70. Ad və soyadı eyni olan istifadəçilərin məlumatlarını ekrana verən funksiya yazın
 
-let arr = [
+/* let arr = [
   {
     name: "Thomas",
     surname: "Alm",
@@ -710,7 +753,7 @@ let arr = [
     gender: "male"
   },
   {
-    name: "Yhomas",
+    name: "Thomas",
     surname: "Alm",
     age: 35,
     gender: "famele"
@@ -739,7 +782,8 @@ let arr = [
     age: 23,
     gender: "male"
   },
-]
+] */
+
 
 
 
